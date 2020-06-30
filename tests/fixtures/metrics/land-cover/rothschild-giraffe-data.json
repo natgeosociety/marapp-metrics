@@ -1,0 +1,16 @@
+{
+  "data_2015": {
+    "forest": 4674.539776168764,
+    "shrubland": 2668.4631922766566,
+    "sparse_vegetation": 0,
+    "grassland": 1464.9991224631667,
+    "wetland": 145.70691433548927,
+    "water": 367.00387447327375,
+    "permanent_snow_and_ice": 0,
+    "bare": 0,
+    "agriculture": 8663.898554295301,
+    "settlements": 6.074233114719391,
+    "no_data": 0
+  },
+  "area_km2": 17990.68566712737
+}

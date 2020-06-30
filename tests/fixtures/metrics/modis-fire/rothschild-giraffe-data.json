@@ -1,0 +1,5046 @@
+{
+  "year_isoweek": [
+    {
+      "year": 2000,
+      "isoweek": 44,
+      "value": 1.7365401089191437
+    },
+    {
+      "year": 2000,
+      "isoweek": 45,
+      "value": 43.90616115927696
+    },
+    {
+      "year": 2000,
+      "isoweek": 46,
+      "value": 38.934833973646164
+    },
+    {
+      "year": 2000,
+      "isoweek": 47,
+      "value": 57.79339760541916
+    },
+    {
+      "year": 2000,
+      "isoweek": 48,
+      "value": 43.90110217034817
+    },
+    {
+      "year": 2000,
+      "isoweek": 49,
+      "value": 61.014699682593346
+    },
+    {
+      "year": 2000,
+      "isoweek": 50,
+      "value": 318.9964945167303
+    },
+    {
+      "year": 2000,
+      "isoweek": 51,
+      "value": 297.8042917698622
+    },
+    {
+      "year": 2000,
+      "isoweek": 52,
+      "value": 73.90385116636753
+    },
+    {
+      "year": 2001,
+      "isoweek": 1,
+      "value": 513.4816986322403
+    },
+    {
+      "year": 2001,
+      "isoweek": 2,
+      "value": 748.5219691842794
+    },
+    {
+      "year": 2001,
+      "isoweek": 3,
+      "value": 607.37282371521
+    },
+    {
+      "year": 2001,
+      "isoweek": 4,
+      "value": 1046.6459298580885
+    },
+    {
+      "year": 2001,
+      "isoweek": 5,
+      "value": 596.7401816993952
+    },
+    {
+      "year": 2001,
+      "isoweek": 6,
+      "value": 149.6196442246437
+    },
+    {
+      "year": 2001,
+      "isoweek": 7,
+      "value": 67.23289483785629
+    },
+    {
+      "year": 2001,
+      "isoweek": 8,
+      "value": 141.43885296583176
+    },
+    {
+      "year": 2001,
+      "isoweek": 9,
+      "value": 18.608100906014442
+    },
+    {
+      "year": 2001,
+      "isoweek": 10,
+      "value": 4.466916635632515
+    },
+    {
+      "year": 2001,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 23,
+      "value": 0.9932549148797989
+    },
+    {
+      "year": 2001,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 25,
+      "value": 24.328364595770836
+    },
+    {
+      "year": 2001,
+      "isoweek": 26,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 27,
+      "value": 1.7381912022829056
+    },
+    {
+      "year": 2001,
+      "isoweek": 28,
+      "value": 0.7449374794960022
+    },
+    {
+      "year": 2001,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 35,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 36,
+      "value": 0.9912351369857788
+    },
+    {
+      "year": 2001,
+      "isoweek": 37,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 38,
+      "value": 0.24802842736244202
+    },
+    {
+      "year": 2001,
+      "isoweek": 39,
+      "value": 0
+    },
+    {
+      "year": 2001,
+      "isoweek": 40,
+      "value": 0.7436815053224564
+    },
+    {
+      "year": 2001,
+      "isoweek": 41,
+      "value": 6.692187458276749
+    },
+    {
+      "year": 2001,
+      "isoweek": 42,
+      "value": 1.735282987356186
+    },
+    {
+      "year": 2001,
+      "isoweek": 43,
+      "value": 1.487458810210228
+    },
+    {
+      "year": 2001,
+      "isoweek": 44,
+      "value": 11.655911982059479
+    },
+    {
+      "year": 2001,
+      "isoweek": 45,
+      "value": 6.450142547488213
+    },
+    {
+      "year": 2001,
+      "isoweek": 46,
+      "value": 1.488472267985344
+    },
+    {
+      "year": 2001,
+      "isoweek": 47,
+      "value": 120.80695237219334
+    },
+    {
+      "year": 2001,
+      "isoweek": 48,
+      "value": 47.8567721247673
+    },
+    {
+      "year": 2001,
+      "isoweek": 49,
+      "value": 249.66310800611973
+    },
+    {
+      "year": 2001,
+      "isoweek": 50,
+      "value": 515.6818080544472
+    },
+    {
+      "year": 2001,
+      "isoweek": 51,
+      "value": 203.0365878790617
+    },
+    {
+      "year": 2001,
+      "isoweek": 52,
+      "value": 810.0093131959438
+    },
+    {
+      "year": 2002,
+      "isoweek": 1,
+      "value": 371.2161375284195
+    },
+    {
+      "year": 2002,
+      "isoweek": 2,
+      "value": 1235.9454441219568
+    },
+    {
+      "year": 2002,
+      "isoweek": 3,
+      "value": 1324.0008065402508
+    },
+    {
+      "year": 2002,
+      "isoweek": 4,
+      "value": 752.0436882674694
+    },
+    {
+      "year": 2002,
+      "isoweek": 5,
+      "value": 97.73871706426144
+    },
+    {
+      "year": 2002,
+      "isoweek": 6,
+      "value": 28.774397164583206
+    },
+    {
+      "year": 2002,
+      "isoweek": 7,
+      "value": 30.482097879052162
+    },
+    {
+      "year": 2002,
+      "isoweek": 8,
+      "value": 10.409592673182487
+    },
+    {
+      "year": 2002,
+      "isoweek": 9,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 10,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 23,
+      "value": 0.9923874735832214
+    },
+    {
+      "year": 2002,
+      "isoweek": 24,
+      "value": 1.4887147545814514
+    },
+    {
+      "year": 2002,
+      "isoweek": 25,
+      "value": 13.901177823543549
+    },
+    {
+      "year": 2002,
+      "isoweek": 26,
+      "value": 10.424304962158203
+    },
+    {
+      "year": 2002,
+      "isoweek": 27,
+      "value": 1.9858145117759705
+    },
+    {
+      "year": 2002,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2002,
+      "isoweek": 29,
+      "value": 1.2415619939565659
+    },
+    {
+      "year": 2002,
+      "isoweek": 30,
+      "value": 18.375181153416634
+    },
+    {
+      "year": 2002,
+      "isoweek": 31,
+      "value": 24.33397264778614
+    },
+    {
+      "year": 2002,
+      "isoweek": 32,
+      "value": 29.54845091700554
+    },
+    {
+      "year": 2002,
+      "isoweek": 33,
+      "value": 21.590771034359932
+    },
+    {
+      "year": 2002,
+      "isoweek": 34,
+      "value": 56.27639888226986
+    },
+    {
+      "year": 2002,
+      "isoweek": 35,
+      "value": 173.01529967784882
+    },
+    {
+      "year": 2002,
+      "isoweek": 36,
+      "value": 262.0161347091198
+    },
+    {
+      "year": 2002,
+      "isoweek": 37,
+      "value": 250.41729798913002
+    },
+    {
+      "year": 2002,
+      "isoweek": 38,
+      "value": 93.70605129003525
+    },
+    {
+      "year": 2002,
+      "isoweek": 39,
+      "value": 122.9480926990509
+    },
+    {
+      "year": 2002,
+      "isoweek": 40,
+      "value": 33.212937504053116
+    },
+    {
+      "year": 2002,
+      "isoweek": 41,
+      "value": 24.54117226600647
+    },
+    {
+      "year": 2002,
+      "isoweek": 42,
+      "value": 15.62203149497509
+    },
+    {
+      "year": 2002,
+      "isoweek": 43,
+      "value": 8.929004922509193
+    },
+    {
+      "year": 2002,
+      "isoweek": 44,
+      "value": 4.46487383544445
+    },
+    {
+      "year": 2002,
+      "isoweek": 45,
+      "value": 22.57526496052742
+    },
+    {
+      "year": 2002,
+      "isoweek": 46,
+      "value": 30.759371638298035
+    },
+    {
+      "year": 2002,
+      "isoweek": 47,
+      "value": 59.28822101652622
+    },
+    {
+      "year": 2002,
+      "isoweek": 48,
+      "value": 39.93548385798931
+    },
+    {
+      "year": 2002,
+      "isoweek": 49,
+      "value": 13.642343387007713
+    },
+    {
+      "year": 2002,
+      "isoweek": 50,
+      "value": 50.601691231131554
+    },
+    {
+      "year": 2002,
+      "isoweek": 51,
+      "value": 278.83135379850864
+    },
+    {
+      "year": 2002,
+      "isoweek": 52,
+      "value": 144.13378033041954
+    },
+    {
+      "year": 2003,
+      "isoweek": 1,
+      "value": 478.44681595265865
+    },
+    {
+      "year": 2003,
+      "isoweek": 2,
+      "value": 367.68023267388344
+    },
+    {
+      "year": 2003,
+      "isoweek": 3,
+      "value": 683.6105160266161
+    },
+    {
+      "year": 2003,
+      "isoweek": 4,
+      "value": 2200.906306117773
+    },
+    {
+      "year": 2003,
+      "isoweek": 5,
+      "value": 318.0738444775343
+    },
+    {
+      "year": 2003,
+      "isoweek": 6,
+      "value": 137.6879743784666
+    },
+    {
+      "year": 2003,
+      "isoweek": 7,
+      "value": 62.5283155888319
+    },
+    {
+      "year": 2003,
+      "isoweek": 8,
+      "value": 60.78772169351578
+    },
+    {
+      "year": 2003,
+      "isoweek": 9,
+      "value": 3.225141078233719
+    },
+    {
+      "year": 2003,
+      "isoweek": 10,
+      "value": 1.488257884979248
+    },
+    {
+      "year": 2003,
+      "isoweek": 11,
+      "value": 1.4882707297801971
+    },
+    {
+      "year": 2003,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 23,
+      "value": 0.9932565093040466
+    },
+    {
+      "year": 2003,
+      "isoweek": 24,
+      "value": 0.9932620376348495
+    },
+    {
+      "year": 2003,
+      "isoweek": 25,
+      "value": 3.228073835372925
+    },
+    {
+      "year": 2003,
+      "isoweek": 26,
+      "value": 9.932506799697876
+    },
+    {
+      "year": 2003,
+      "isoweek": 27,
+      "value": 1.48987478017807
+    },
+    {
+      "year": 2003,
+      "isoweek": 28,
+      "value": 0.24802559614181519
+    },
+    {
+      "year": 2003,
+      "isoweek": 29,
+      "value": 21.10641549527645
+    },
+    {
+      "year": 2003,
+      "isoweek": 30,
+      "value": 31.535896062850952
+    },
+    {
+      "year": 2003,
+      "isoweek": 31,
+      "value": 0.2483135610818863
+    },
+    {
+      "year": 2003,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 35,
+      "value": 0
+    },
+    {
+      "year": 2003,
+      "isoweek": 36,
+      "value": 3.721768841147423
+    },
+    {
+      "year": 2003,
+      "isoweek": 37,
+      "value": 19.351567789912224
+    },
+    {
+      "year": 2003,
+      "isoweek": 38,
+      "value": 7.938477069139481
+    },
+    {
+      "year": 2003,
+      "isoweek": 39,
+      "value": 10.418829068541527
+    },
+    {
+      "year": 2003,
+      "isoweek": 40,
+      "value": 34.213913559913635
+    },
+    {
+      "year": 2003,
+      "isoweek": 41,
+      "value": 181.7770638167858
+    },
+    {
+      "year": 2003,
+      "isoweek": 42,
+      "value": 185.95930121839046
+    },
+    {
+      "year": 2003,
+      "isoweek": 43,
+      "value": 335.1145412027836
+    },
+    {
+      "year": 2003,
+      "isoweek": 44,
+      "value": 175.4894516915083
+    },
+    {
+      "year": 2003,
+      "isoweek": 45,
+      "value": 76.84711927175522
+    },
+    {
+      "year": 2003,
+      "isoweek": 46,
+      "value": 29.74958735704422
+    },
+    {
+      "year": 2003,
+      "isoweek": 47,
+      "value": 39.6755817681551
+    },
+    {
+      "year": 2003,
+      "isoweek": 48,
+      "value": 65.4663654267788
+    },
+    {
+      "year": 2003,
+      "isoweek": 49,
+      "value": 144.34081041812897
+    },
+    {
+      "year": 2003,
+      "isoweek": 50,
+      "value": 106.39651630818844
+    },
+    {
+      "year": 2003,
+      "isoweek": 51,
+      "value": 284.32408495247364
+    },
+    {
+      "year": 2003,
+      "isoweek": 52,
+      "value": 179.11731886863708
+    },
+    {
+      "year": 2004,
+      "isoweek": 1,
+      "value": 425.3190679997206
+    },
+    {
+      "year": 2004,
+      "isoweek": 2,
+      "value": 314.62060210108757
+    },
+    {
+      "year": 2004,
+      "isoweek": 3,
+      "value": 473.9299054890871
+    },
+    {
+      "year": 2004,
+      "isoweek": 4,
+      "value": 974.4165637344122
+    },
+    {
+      "year": 2004,
+      "isoweek": 5,
+      "value": 866.9774897247553
+    },
+    {
+      "year": 2004,
+      "isoweek": 6,
+      "value": 387.0984956920147
+    },
+    {
+      "year": 2004,
+      "isoweek": 7,
+      "value": 47.39517238736153
+    },
+    {
+      "year": 2004,
+      "isoweek": 8,
+      "value": 14.637899085879326
+    },
+    {
+      "year": 2004,
+      "isoweek": 9,
+      "value": 71.87513801455498
+    },
+    {
+      "year": 2004,
+      "isoweek": 10,
+      "value": 95.65267080068588
+    },
+    {
+      "year": 2004,
+      "isoweek": 11,
+      "value": 7.189529731869698
+    },
+    {
+      "year": 2004,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 19,
+      "value": 0.4964151978492737
+    },
+    {
+      "year": 2004,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 23,
+      "value": 2.2330185025930405
+    },
+    {
+      "year": 2004,
+      "isoweek": 24,
+      "value": 1.4885482341051102
+    },
+    {
+      "year": 2004,
+      "isoweek": 25,
+      "value": 10.670309126377106
+    },
+    {
+      "year": 2004,
+      "isoweek": 26,
+      "value": 93.51977257430553
+    },
+    {
+      "year": 2004,
+      "isoweek": 27,
+      "value": 83.84732174873352
+    },
+    {
+      "year": 2004,
+      "isoweek": 28,
+      "value": 18.36699540913105
+    },
+    {
+      "year": 2004,
+      "isoweek": 29,
+      "value": 1.2413173019886017
+    },
+    {
+      "year": 2004,
+      "isoweek": 30,
+      "value": 7.9460330456495285
+    },
+    {
+      "year": 2004,
+      "isoweek": 31,
+      "value": 3.9730237424373627
+    },
+    {
+      "year": 2004,
+      "isoweek": 32,
+      "value": 0.24831432104110718
+    },
+    {
+      "year": 2004,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2004,
+      "isoweek": 34,
+      "value": 0.4957917630672455
+    },
+    {
+      "year": 2004,
+      "isoweek": 35,
+      "value": 1.735649660229683
+    },
+    {
+      "year": 2004,
+      "isoweek": 36,
+      "value": 14.873638361692429
+    },
+    {
+      "year": 2004,
+      "isoweek": 37,
+      "value": 22.061938658356667
+    },
+    {
+      "year": 2004,
+      "isoweek": 38,
+      "value": 21.57064588367939
+    },
+    {
+      "year": 2004,
+      "isoweek": 39,
+      "value": 38.43342159688473
+    },
+    {
+      "year": 2004,
+      "isoweek": 40,
+      "value": 37.43470448255539
+    },
+    {
+      "year": 2004,
+      "isoweek": 41,
+      "value": 54.542683094739914
+    },
+    {
+      "year": 2004,
+      "isoweek": 42,
+      "value": 75.35203574597836
+    },
+    {
+      "year": 2004,
+      "isoweek": 43,
+      "value": 23.302652552723885
+    },
+    {
+      "year": 2004,
+      "isoweek": 44,
+      "value": 7.936596646904945
+    },
+    {
+      "year": 2004,
+      "isoweek": 45,
+      "value": 23.067887619137764
+    },
+    {
+      "year": 2004,
+      "isoweek": 46,
+      "value": 23.069222897291183
+    },
+    {
+      "year": 2004,
+      "isoweek": 47,
+      "value": 56.55895581841469
+    },
+    {
+      "year": 2004,
+      "isoweek": 48,
+      "value": 97.9880420267582
+    },
+    {
+      "year": 2004,
+      "isoweek": 49,
+      "value": 227.72509156167507
+    },
+    {
+      "year": 2004,
+      "isoweek": 50,
+      "value": 195.41443246603012
+    },
+    {
+      "year": 2004,
+      "isoweek": 51,
+      "value": 155.51655350625515
+    },
+    {
+      "year": 2004,
+      "isoweek": 52,
+      "value": 284.83783718943596
+    },
+    {
+      "year": 2004,
+      "isoweek": 53,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 1,
+      "value": 299.46549294888973
+    },
+    {
+      "year": 2005,
+      "isoweek": 2,
+      "value": 393.4599102586508
+    },
+    {
+      "year": 2005,
+      "isoweek": 3,
+      "value": 334.4463999867439
+    },
+    {
+      "year": 2005,
+      "isoweek": 4,
+      "value": 120.07821513712406
+    },
+    {
+      "year": 2005,
+      "isoweek": 5,
+      "value": 300.03889137506485
+    },
+    {
+      "year": 2005,
+      "isoweek": 6,
+      "value": 170.41764536499977
+    },
+    {
+      "year": 2005,
+      "isoweek": 7,
+      "value": 88.59028296172619
+    },
+    {
+      "year": 2005,
+      "isoweek": 8,
+      "value": 0.4963034838438034
+    },
+    {
+      "year": 2005,
+      "isoweek": 9,
+      "value": 0.9922553598880768
+    },
+    {
+      "year": 2005,
+      "isoweek": 10,
+      "value": 0.24815282225608826
+    },
+    {
+      "year": 2005,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 12,
+      "value": 0.24807792901992798
+    },
+    {
+      "year": 2005,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 23,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 25,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 26,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 27,
+      "value": 9.427642107009888
+    },
+    {
+      "year": 2005,
+      "isoweek": 28,
+      "value": 11.660308495163918
+    },
+    {
+      "year": 2005,
+      "isoweek": 29,
+      "value": 6.698480665683746
+    },
+    {
+      "year": 2005,
+      "isoweek": 30,
+      "value": 0.24809810519218445
+    },
+    {
+      "year": 2005,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2005,
+      "isoweek": 35,
+      "value": 0.24804052710533142
+    },
+    {
+      "year": 2005,
+      "isoweek": 36,
+      "value": 0.2480396032333374
+    },
+    {
+      "year": 2005,
+      "isoweek": 37,
+      "value": 5.705034852027893
+    },
+    {
+      "year": 2005,
+      "isoweek": 38,
+      "value": 13.395553022623062
+    },
+    {
+      "year": 2005,
+      "isoweek": 39,
+      "value": 44.4023110717535
+    },
+    {
+      "year": 2005,
+      "isoweek": 40,
+      "value": 8.183474823832512
+    },
+    {
+      "year": 2005,
+      "isoweek": 41,
+      "value": 8.429096549749374
+    },
+    {
+      "year": 2005,
+      "isoweek": 42,
+      "value": 16.862782895565033
+    },
+    {
+      "year": 2005,
+      "isoweek": 43,
+      "value": 43.13554713129997
+    },
+    {
+      "year": 2005,
+      "isoweek": 44,
+      "value": 62.490994319319725
+    },
+    {
+      "year": 2005,
+      "isoweek": 45,
+      "value": 146.53695353865623
+    },
+    {
+      "year": 2005,
+      "isoweek": 46,
+      "value": 586.331919580698
+    },
+    {
+      "year": 2005,
+      "isoweek": 47,
+      "value": 561.3355247378349
+    },
+    {
+      "year": 2005,
+      "isoweek": 48,
+      "value": 353.49786223471165
+    },
+    {
+      "year": 2005,
+      "isoweek": 49,
+      "value": 963.8663195371628
+    },
+    {
+      "year": 2005,
+      "isoweek": 50,
+      "value": 1415.4627757668495
+    },
+    {
+      "year": 2005,
+      "isoweek": 51,
+      "value": 802.1885057389736
+    },
+    {
+      "year": 2005,
+      "isoweek": 52,
+      "value": 192.54005821049213
+    },
+    {
+      "year": 2006,
+      "isoweek": 1,
+      "value": 37.465207412838936
+    },
+    {
+      "year": 2006,
+      "isoweek": 2,
+      "value": 19.35629616677761
+    },
+    {
+      "year": 2006,
+      "isoweek": 3,
+      "value": 92.52996776998043
+    },
+    {
+      "year": 2006,
+      "isoweek": 4,
+      "value": 50.62206633388996
+    },
+    {
+      "year": 2006,
+      "isoweek": 5,
+      "value": 73.71368685364723
+    },
+    {
+      "year": 2006,
+      "isoweek": 6,
+      "value": 67.44414192438126
+    },
+    {
+      "year": 2006,
+      "isoweek": 7,
+      "value": 56.753482073545456
+    },
+    {
+      "year": 2006,
+      "isoweek": 8,
+      "value": 1.4880750179290771
+    },
+    {
+      "year": 2006,
+      "isoweek": 9,
+      "value": 8.436423063278198
+    },
+    {
+      "year": 2006,
+      "isoweek": 10,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 23,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 25,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 26,
+      "value": 0.49615325033664703
+    },
+    {
+      "year": 2006,
+      "isoweek": 27,
+      "value": 0.7442268282175064
+    },
+    {
+      "year": 2006,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2006,
+      "isoweek": 35,
+      "value": 0.24804602563381195
+    },
+    {
+      "year": 2006,
+      "isoweek": 36,
+      "value": 0.4958352744579315
+    },
+    {
+      "year": 2006,
+      "isoweek": 37,
+      "value": 12.891831293702126
+    },
+    {
+      "year": 2006,
+      "isoweek": 38,
+      "value": 7.686311259865761
+    },
+    {
+      "year": 2006,
+      "isoweek": 39,
+      "value": 41.91319312155247
+    },
+    {
+      "year": 2006,
+      "isoweek": 40,
+      "value": 90.29033467173576
+    },
+    {
+      "year": 2006,
+      "isoweek": 41,
+      "value": 110.1245708912611
+    },
+    {
+      "year": 2006,
+      "isoweek": 42,
+      "value": 34.968983605504036
+    },
+    {
+      "year": 2006,
+      "isoweek": 43,
+      "value": 13.389527693390846
+    },
+    {
+      "year": 2006,
+      "isoweek": 44,
+      "value": 5.9490963369607925
+    },
+    {
+      "year": 2006,
+      "isoweek": 45,
+      "value": 4.957409709692001
+    },
+    {
+      "year": 2006,
+      "isoweek": 46,
+      "value": 4.215775296092033
+    },
+    {
+      "year": 2006,
+      "isoweek": 47,
+      "value": 36.213962733745575
+    },
+    {
+      "year": 2006,
+      "isoweek": 48,
+      "value": 19.84068487584591
+    },
+    {
+      "year": 2006,
+      "isoweek": 49,
+      "value": 28.277301788330078
+    },
+    {
+      "year": 2006,
+      "isoweek": 50,
+      "value": 51.840318128466606
+    },
+    {
+      "year": 2006,
+      "isoweek": 51,
+      "value": 118.30808378756046
+    },
+    {
+      "year": 2006,
+      "isoweek": 52,
+      "value": 538.8991367816925
+    },
+    {
+      "year": 2007,
+      "isoweek": 1,
+      "value": 148.06332625448704
+    },
+    {
+      "year": 2007,
+      "isoweek": 2,
+      "value": 277.09174926579
+    },
+    {
+      "year": 2007,
+      "isoweek": 3,
+      "value": 380.07118920981884
+    },
+    {
+      "year": 2007,
+      "isoweek": 4,
+      "value": 174.4121468961239
+    },
+    {
+      "year": 2007,
+      "isoweek": 5,
+      "value": 358.7689151316881
+    },
+    {
+      "year": 2007,
+      "isoweek": 6,
+      "value": 276.8880334943533
+    },
+    {
+      "year": 2007,
+      "isoweek": 7,
+      "value": 232.98089410364628
+    },
+    {
+      "year": 2007,
+      "isoweek": 8,
+      "value": 83.85431860387325
+    },
+    {
+      "year": 2007,
+      "isoweek": 9,
+      "value": 187.31551799178123
+    },
+    {
+      "year": 2007,
+      "isoweek": 10,
+      "value": 25.803067088127136
+    },
+    {
+      "year": 2007,
+      "isoweek": 11,
+      "value": 2.2326064109802246
+    },
+    {
+      "year": 2007,
+      "isoweek": 12,
+      "value": 1.240714579820633
+    },
+    {
+      "year": 2007,
+      "isoweek": 13,
+      "value": 27.54308693110943
+    },
+    {
+      "year": 2007,
+      "isoweek": 14,
+      "value": 2.7294708639383316
+    },
+    {
+      "year": 2007,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 23,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 25,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 26,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 27,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 35,
+      "value": 5.207843154668808
+    },
+    {
+      "year": 2007,
+      "isoweek": 36,
+      "value": 6.9437756687402725
+    },
+    {
+      "year": 2007,
+      "isoweek": 37,
+      "value": 2.97622586786747
+    },
+    {
+      "year": 2007,
+      "isoweek": 38,
+      "value": 0
+    },
+    {
+      "year": 2007,
+      "isoweek": 39,
+      "value": 3.2246845066547394
+    },
+    {
+      "year": 2007,
+      "isoweek": 40,
+      "value": 20.835570469498634
+    },
+    {
+      "year": 2007,
+      "isoweek": 41,
+      "value": 40.67472642660141
+    },
+    {
+      "year": 2007,
+      "isoweek": 42,
+      "value": 95.48051635921001
+    },
+    {
+      "year": 2007,
+      "isoweek": 43,
+      "value": 184.96770042181015
+    },
+    {
+      "year": 2007,
+      "isoweek": 44,
+      "value": 61.485633328557014
+    },
+    {
+      "year": 2007,
+      "isoweek": 45,
+      "value": 94.20243047177792
+    },
+    {
+      "year": 2007,
+      "isoweek": 46,
+      "value": 156.6729546636343
+    },
+    {
+      "year": 2007,
+      "isoweek": 47,
+      "value": 147.2773462086916
+    },
+    {
+      "year": 2007,
+      "isoweek": 48,
+      "value": 324.6269150823355
+    },
+    {
+      "year": 2007,
+      "isoweek": 49,
+      "value": 119.7676697075367
+    },
+    {
+      "year": 2007,
+      "isoweek": 50,
+      "value": 189.99225535988808
+    },
+    {
+      "year": 2007,
+      "isoweek": 51,
+      "value": 183.6141929924488
+    },
+    {
+      "year": 2007,
+      "isoweek": 52,
+      "value": 310.77221931517124
+    },
+    {
+      "year": 2008,
+      "isoweek": 1,
+      "value": 423.79804046452045
+    },
+    {
+      "year": 2008,
+      "isoweek": 2,
+      "value": 137.18821327388287
+    },
+    {
+      "year": 2008,
+      "isoweek": 3,
+      "value": 270.40986052155495
+    },
+    {
+      "year": 2008,
+      "isoweek": 4,
+      "value": 205.6660972982645
+    },
+    {
+      "year": 2008,
+      "isoweek": 5,
+      "value": 9.183697178959846
+    },
+    {
+      "year": 2008,
+      "isoweek": 6,
+      "value": 47.14094504714012
+    },
+    {
+      "year": 2008,
+      "isoweek": 7,
+      "value": 71.2078797519207
+    },
+    {
+      "year": 2008,
+      "isoweek": 8,
+      "value": 11.1608956605196
+    },
+    {
+      "year": 2008,
+      "isoweek": 9,
+      "value": 0.24787530303001404
+    },
+    {
+      "year": 2008,
+      "isoweek": 10,
+      "value": 0.7445170283317566
+    },
+    {
+      "year": 2008,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 21,
+      "value": 0.4966462254524231
+    },
+    {
+      "year": 2008,
+      "isoweek": 22,
+      "value": 38.98671342432499
+    },
+    {
+      "year": 2008,
+      "isoweek": 23,
+      "value": 32.282010942697525
+    },
+    {
+      "year": 2008,
+      "isoweek": 24,
+      "value": 1.4893740713596344
+    },
+    {
+      "year": 2008,
+      "isoweek": 25,
+      "value": 0.7441169321537018
+    },
+    {
+      "year": 2008,
+      "isoweek": 26,
+      "value": 0.7440983802080154
+    },
+    {
+      "year": 2008,
+      "isoweek": 27,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2008,
+      "isoweek": 34,
+      "value": 1.736213967204094
+    },
+    {
+      "year": 2008,
+      "isoweek": 35,
+      "value": 4.713033571839333
+    },
+    {
+      "year": 2008,
+      "isoweek": 36,
+      "value": 6.201866373419762
+    },
+    {
+      "year": 2008,
+      "isoweek": 37,
+      "value": 31.25581605732441
+    },
+    {
+      "year": 2008,
+      "isoweek": 38,
+      "value": 72.43062470853329
+    },
+    {
+      "year": 2008,
+      "isoweek": 39,
+      "value": 19.595645010471344
+    },
+    {
+      "year": 2008,
+      "isoweek": 40,
+      "value": 6.447965309023857
+    },
+    {
+      "year": 2008,
+      "isoweek": 41,
+      "value": 3.9675299525260925
+    },
+    {
+      "year": 2008,
+      "isoweek": 42,
+      "value": 4.712905377149582
+    },
+    {
+      "year": 2008,
+      "isoweek": 43,
+      "value": 5.9526636749506
+    },
+    {
+      "year": 2008,
+      "isoweek": 44,
+      "value": 26.790402576327324
+    },
+    {
+      "year": 2008,
+      "isoweek": 45,
+      "value": 164.70048709213734
+    },
+    {
+      "year": 2008,
+      "isoweek": 46,
+      "value": 203.1465471982956
+    },
+    {
+      "year": 2008,
+      "isoweek": 47,
+      "value": 305.7649398446083
+    },
+    {
+      "year": 2008,
+      "isoweek": 48,
+      "value": 323.5774540603161
+    },
+    {
+      "year": 2008,
+      "isoweek": 49,
+      "value": 442.4784079492092
+    },
+    {
+      "year": 2008,
+      "isoweek": 50,
+      "value": 1232.5065696686506
+    },
+    {
+      "year": 2008,
+      "isoweek": 51,
+      "value": 424.2170075774193
+    },
+    {
+      "year": 2008,
+      "isoweek": 52,
+      "value": 597.4552552998066
+    },
+    {
+      "year": 2009,
+      "isoweek": 1,
+      "value": 637.1776228696108
+    },
+    {
+      "year": 2009,
+      "isoweek": 2,
+      "value": 42.426202565431595
+    },
+    {
+      "year": 2009,
+      "isoweek": 3,
+      "value": 7.936031267046928
+    },
+    {
+      "year": 2009,
+      "isoweek": 4,
+      "value": 0.9918666183948517
+    },
+    {
+      "year": 2009,
+      "isoweek": 5,
+      "value": 1.2392562329769135
+    },
+    {
+      "year": 2009,
+      "isoweek": 6,
+      "value": 0.24785302579402924
+    },
+    {
+      "year": 2009,
+      "isoweek": 7,
+      "value": 1.7363750487565994
+    },
+    {
+      "year": 2009,
+      "isoweek": 8,
+      "value": 2.4810408502817154
+    },
+    {
+      "year": 2009,
+      "isoweek": 9,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 10,
+      "value": 2.48085381090641
+    },
+    {
+      "year": 2009,
+      "isoweek": 11,
+      "value": 0.24781681597232819
+    },
+    {
+      "year": 2009,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 22,
+      "value": 2.2321590036153793
+    },
+    {
+      "year": 2009,
+      "isoweek": 23,
+      "value": 2.9785697609186172
+    },
+    {
+      "year": 2009,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 25,
+      "value": 14.887096717953682
+    },
+    {
+      "year": 2009,
+      "isoweek": 26,
+      "value": 25.055488884449005
+    },
+    {
+      "year": 2009,
+      "isoweek": 27,
+      "value": 4.961271092295647
+    },
+    {
+      "year": 2009,
+      "isoweek": 28,
+      "value": 4.217299148440361
+    },
+    {
+      "year": 2009,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2009,
+      "isoweek": 30,
+      "value": 2.2302528619766235
+    },
+    {
+      "year": 2009,
+      "isoweek": 31,
+      "value": 7.190224498510361
+    },
+    {
+      "year": 2009,
+      "isoweek": 32,
+      "value": 12.389223903417587
+    },
+    {
+      "year": 2009,
+      "isoweek": 33,
+      "value": 6.442560091614723
+    },
+    {
+      "year": 2009,
+      "isoweek": 34,
+      "value": 3.2213567942380905
+    },
+    {
+      "year": 2009,
+      "isoweek": 35,
+      "value": 3.46930368244648
+    },
+    {
+      "year": 2009,
+      "isoweek": 36,
+      "value": 31.722547218203545
+    },
+    {
+      "year": 2009,
+      "isoweek": 37,
+      "value": 27.014095962047577
+    },
+    {
+      "year": 2009,
+      "isoweek": 38,
+      "value": 5.700601801276207
+    },
+    {
+      "year": 2009,
+      "isoweek": 39,
+      "value": 1.4883681237697601
+    },
+    {
+      "year": 2009,
+      "isoweek": 40,
+      "value": 4.712452620267868
+    },
+    {
+      "year": 2009,
+      "isoweek": 41,
+      "value": 27.520432323217392
+    },
+    {
+      "year": 2009,
+      "isoweek": 42,
+      "value": 2.9766449481248856
+    },
+    {
+      "year": 2009,
+      "isoweek": 43,
+      "value": 33.225915879011154
+    },
+    {
+      "year": 2009,
+      "isoweek": 44,
+      "value": 35.2009509652853
+    },
+    {
+      "year": 2009,
+      "isoweek": 45,
+      "value": 59.733478143811226
+    },
+    {
+      "year": 2009,
+      "isoweek": 46,
+      "value": 130.39294315874577
+    },
+    {
+      "year": 2009,
+      "isoweek": 47,
+      "value": 120.46705767512321
+    },
+    {
+      "year": 2009,
+      "isoweek": 48,
+      "value": 33.96158289909363
+    },
+    {
+      "year": 2009,
+      "isoweek": 49,
+      "value": 32.232663094997406
+    },
+    {
+      "year": 2009,
+      "isoweek": 50,
+      "value": 28.780146449804306
+    },
+    {
+      "year": 2009,
+      "isoweek": 51,
+      "value": 43.661693170666695
+    },
+    {
+      "year": 2009,
+      "isoweek": 52,
+      "value": 549.2675799131393
+    },
+    {
+      "year": 2009,
+      "isoweek": 53,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 1,
+      "value": 113.64277246594429
+    },
+    {
+      "year": 2010,
+      "isoweek": 2,
+      "value": 295.2676825672388
+    },
+    {
+      "year": 2010,
+      "isoweek": 3,
+      "value": 726.5285443514585
+    },
+    {
+      "year": 2010,
+      "isoweek": 4,
+      "value": 1036.158745214343
+    },
+    {
+      "year": 2010,
+      "isoweek": 5,
+      "value": 408.13529908657074
+    },
+    {
+      "year": 2010,
+      "isoweek": 6,
+      "value": 155.8090359866619
+    },
+    {
+      "year": 2010,
+      "isoweek": 7,
+      "value": 3.4739350229501724
+    },
+    {
+      "year": 2010,
+      "isoweek": 8,
+      "value": 0.4961478263139725
+    },
+    {
+      "year": 2010,
+      "isoweek": 9,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 10,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 12,
+      "value": 0.49563607573509216
+    },
+    {
+      "year": 2010,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 14,
+      "value": 0.9913811683654785
+    },
+    {
+      "year": 2010,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 22,
+      "value": 0.24810627102851868
+    },
+    {
+      "year": 2010,
+      "isoweek": 23,
+      "value": 0.24809563159942627
+    },
+    {
+      "year": 2010,
+      "isoweek": 24,
+      "value": 0.9923800230026245
+    },
+    {
+      "year": 2010,
+      "isoweek": 25,
+      "value": 2.729035273194313
+    },
+    {
+      "year": 2010,
+      "isoweek": 26,
+      "value": 17.61486542224884
+    },
+    {
+      "year": 2010,
+      "isoweek": 27,
+      "value": 9.925256595015526
+    },
+    {
+      "year": 2010,
+      "isoweek": 28,
+      "value": 38.460776790976524
+    },
+    {
+      "year": 2010,
+      "isoweek": 29,
+      "value": 0.24831633269786835
+    },
+    {
+      "year": 2010,
+      "isoweek": 30,
+      "value": 13.160783901810646
+    },
+    {
+      "year": 2010,
+      "isoweek": 31,
+      "value": 7.697582945227623
+    },
+    {
+      "year": 2010,
+      "isoweek": 32,
+      "value": 19.865022212266922
+    },
+    {
+      "year": 2010,
+      "isoweek": 33,
+      "value": 5.958740383386612
+    },
+    {
+      "year": 2010,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2010,
+      "isoweek": 35,
+      "value": 0.49554185569286346
+    },
+    {
+      "year": 2010,
+      "isoweek": 36,
+      "value": 0.9913743585348129
+    },
+    {
+      "year": 2010,
+      "isoweek": 37,
+      "value": 4.4637559205293655
+    },
+    {
+      "year": 2010,
+      "isoweek": 38,
+      "value": 1.9821892529726028
+    },
+    {
+      "year": 2010,
+      "isoweek": 39,
+      "value": 7.681366592645645
+    },
+    {
+      "year": 2010,
+      "isoweek": 40,
+      "value": 3.22250697016716
+    },
+    {
+      "year": 2010,
+      "isoweek": 41,
+      "value": 26.772600397467613
+    },
+    {
+      "year": 2010,
+      "isoweek": 42,
+      "value": 116.49586592614651
+    },
+    {
+      "year": 2010,
+      "isoweek": 43,
+      "value": 155.92476990818977
+    },
+    {
+      "year": 2010,
+      "isoweek": 44,
+      "value": 203.2741173952818
+    },
+    {
+      "year": 2010,
+      "isoweek": 45,
+      "value": 220.35431884229183
+    },
+    {
+      "year": 2010,
+      "isoweek": 46,
+      "value": 283.06057757139206
+    },
+    {
+      "year": 2010,
+      "isoweek": 47,
+      "value": 168.29500757157803
+    },
+    {
+      "year": 2010,
+      "isoweek": 48,
+      "value": 65.45229415595531
+    },
+    {
+      "year": 2010,
+      "isoweek": 49,
+      "value": 50.82601082324982
+    },
+    {
+      "year": 2010,
+      "isoweek": 50,
+      "value": 38.69040675461292
+    },
+    {
+      "year": 2010,
+      "isoweek": 51,
+      "value": 40.67868521809578
+    },
+    {
+      "year": 2010,
+      "isoweek": 52,
+      "value": 22.080221816897392
+    },
+    {
+      "year": 2011,
+      "isoweek": 1,
+      "value": 344.39711007475853
+    },
+    {
+      "year": 2011,
+      "isoweek": 2,
+      "value": 867.1947230696678
+    },
+    {
+      "year": 2011,
+      "isoweek": 3,
+      "value": 767.6742069125175
+    },
+    {
+      "year": 2011,
+      "isoweek": 4,
+      "value": 294.03194715082645
+    },
+    {
+      "year": 2011,
+      "isoweek": 5,
+      "value": 390.03470662236214
+    },
+    {
+      "year": 2011,
+      "isoweek": 6,
+      "value": 157.07566134631634
+    },
+    {
+      "year": 2011,
+      "isoweek": 7,
+      "value": 150.84625053405762
+    },
+    {
+      "year": 2011,
+      "isoweek": 8,
+      "value": 92.29292978346348
+    },
+    {
+      "year": 2011,
+      "isoweek": 9,
+      "value": 16.127630099654198
+    },
+    {
+      "year": 2011,
+      "isoweek": 10,
+      "value": 0.24832312762737274
+    },
+    {
+      "year": 2011,
+      "isoweek": 11,
+      "value": 1.488248348236084
+    },
+    {
+      "year": 2011,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 20,
+      "value": 0.24813514947891235
+    },
+    {
+      "year": 2011,
+      "isoweek": 21,
+      "value": 0.4962688088417053
+    },
+    {
+      "year": 2011,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 23,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 25,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 26,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 27,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 35,
+      "value": 0
+    },
+    {
+      "year": 2011,
+      "isoweek": 36,
+      "value": 0.24806837737560272
+    },
+    {
+      "year": 2011,
+      "isoweek": 37,
+      "value": 0.7441989630460739
+    },
+    {
+      "year": 2011,
+      "isoweek": 38,
+      "value": 1.2398394346237183
+    },
+    {
+      "year": 2011,
+      "isoweek": 39,
+      "value": 7.434625640511513
+    },
+    {
+      "year": 2011,
+      "isoweek": 40,
+      "value": 3.470120295882225
+    },
+    {
+      "year": 2011,
+      "isoweek": 41,
+      "value": 11.896338239312172
+    },
+    {
+      "year": 2011,
+      "isoweek": 42,
+      "value": 4.709337189793587
+    },
+    {
+      "year": 2011,
+      "isoweek": 43,
+      "value": 0.49585840106010437
+    },
+    {
+      "year": 2011,
+      "isoweek": 44,
+      "value": 2.2326333969831467
+    },
+    {
+      "year": 2011,
+      "isoweek": 45,
+      "value": 32.744313299655914
+    },
+    {
+      "year": 2011,
+      "isoweek": 46,
+      "value": 44.40250360965729
+    },
+    {
+      "year": 2011,
+      "isoweek": 47,
+      "value": 49.612487480044365
+    },
+    {
+      "year": 2011,
+      "isoweek": 48,
+      "value": 27.78052306175232
+    },
+    {
+      "year": 2011,
+      "isoweek": 49,
+      "value": 25.297328263521194
+    },
+    {
+      "year": 2011,
+      "isoweek": 50,
+      "value": 72.90424929559231
+    },
+    {
+      "year": 2011,
+      "isoweek": 51,
+      "value": 261.5560337305069
+    },
+    {
+      "year": 2011,
+      "isoweek": 52,
+      "value": 189.53289651870728
+    },
+    {
+      "year": 2012,
+      "isoweek": 1,
+      "value": 914.6310307830572
+    },
+    {
+      "year": 2012,
+      "isoweek": 2,
+      "value": 591.6817169934511
+    },
+    {
+      "year": 2012,
+      "isoweek": 3,
+      "value": 929.5002445578575
+    },
+    {
+      "year": 2012,
+      "isoweek": 4,
+      "value": 853.724860444665
+    },
+    {
+      "year": 2012,
+      "isoweek": 5,
+      "value": 505.4404912739992
+    },
+    {
+      "year": 2012,
+      "isoweek": 6,
+      "value": 156.06115843355656
+    },
+    {
+      "year": 2012,
+      "isoweek": 7,
+      "value": 39.68095621466637
+    },
+    {
+      "year": 2012,
+      "isoweek": 8,
+      "value": 34.964693546295166
+    },
+    {
+      "year": 2012,
+      "isoweek": 9,
+      "value": 10.412221893668175
+    },
+    {
+      "year": 2012,
+      "isoweek": 10,
+      "value": 15.379135504364967
+    },
+    {
+      "year": 2012,
+      "isoweek": 11,
+      "value": 96.33908584713936
+    },
+    {
+      "year": 2012,
+      "isoweek": 12,
+      "value": 7.9337218552827835
+    },
+    {
+      "year": 2012,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 23,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 25,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 26,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 27,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 28,
+      "value": 0.24804145097732544
+    },
+    {
+      "year": 2012,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 35,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 36,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 37,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 38,
+      "value": 0
+    },
+    {
+      "year": 2012,
+      "isoweek": 39,
+      "value": 0.4961315095424652
+    },
+    {
+      "year": 2012,
+      "isoweek": 40,
+      "value": 8.67687202990055
+    },
+    {
+      "year": 2012,
+      "isoweek": 41,
+      "value": 13.139589637517929
+    },
+    {
+      "year": 2012,
+      "isoweek": 42,
+      "value": 25.292499259114265
+    },
+    {
+      "year": 2012,
+      "isoweek": 43,
+      "value": 5.206740379333496
+    },
+    {
+      "year": 2012,
+      "isoweek": 44,
+      "value": 4.216659054160118
+    },
+    {
+      "year": 2012,
+      "isoweek": 45,
+      "value": 20.341400116682053
+    },
+    {
+      "year": 2012,
+      "isoweek": 46,
+      "value": 66.71008382737637
+    },
+    {
+      "year": 2012,
+      "isoweek": 47,
+      "value": 71.64406821131706
+    },
+    {
+      "year": 2012,
+      "isoweek": 48,
+      "value": 94.93521033227444
+    },
+    {
+      "year": 2012,
+      "isoweek": 49,
+      "value": 156.14649330079556
+    },
+    {
+      "year": 2012,
+      "isoweek": 50,
+      "value": 116.2559655457735
+    },
+    {
+      "year": 2012,
+      "isoweek": 51,
+      "value": 33.47587835788727
+    },
+    {
+      "year": 2012,
+      "isoweek": 52,
+      "value": 724.79933591187
+    },
+    {
+      "year": 2013,
+      "isoweek": 1,
+      "value": 190.76500406861305
+    },
+    {
+      "year": 2013,
+      "isoweek": 2,
+      "value": 425.94343979656696
+    },
+    {
+      "year": 2013,
+      "isoweek": 3,
+      "value": 226.2620509415865
+    },
+    {
+      "year": 2013,
+      "isoweek": 4,
+      "value": 193.7553497850895
+    },
+    {
+      "year": 2013,
+      "isoweek": 5,
+      "value": 435.89290794730186
+    },
+    {
+      "year": 2013,
+      "isoweek": 6,
+      "value": 156.28478921949863
+    },
+    {
+      "year": 2013,
+      "isoweek": 7,
+      "value": 415.1346387267113
+    },
+    {
+      "year": 2013,
+      "isoweek": 8,
+      "value": 72.94944110512733
+    },
+    {
+      "year": 2013,
+      "isoweek": 9,
+      "value": 1.7372662127017975
+    },
+    {
+      "year": 2013,
+      "isoweek": 10,
+      "value": 0.74416883289814
+    },
+    {
+      "year": 2013,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 22,
+      "value": 1.7377534359693527
+    },
+    {
+      "year": 2013,
+      "isoweek": 23,
+      "value": 8.683540910482407
+    },
+    {
+      "year": 2013,
+      "isoweek": 24,
+      "value": 1.7374682873487473
+    },
+    {
+      "year": 2013,
+      "isoweek": 25,
+      "value": 5.461498856544495
+    },
+    {
+      "year": 2013,
+      "isoweek": 26,
+      "value": 2.2345043420791626
+    },
+    {
+      "year": 2013,
+      "isoweek": 27,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 29,
+      "value": 0.248313769698143
+    },
+    {
+      "year": 2013,
+      "isoweek": 30,
+      "value": 4.221342116594315
+    },
+    {
+      "year": 2013,
+      "isoweek": 31,
+      "value": 7.946108177304268
+    },
+    {
+      "year": 2013,
+      "isoweek": 32,
+      "value": 5.214577078819275
+    },
+    {
+      "year": 2013,
+      "isoweek": 33,
+      "value": 6.456237107515335
+    },
+    {
+      "year": 2013,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2013,
+      "isoweek": 35,
+      "value": 0.4956163167953491
+    },
+    {
+      "year": 2013,
+      "isoweek": 36,
+      "value": 0.7435210943222046
+    },
+    {
+      "year": 2013,
+      "isoweek": 37,
+      "value": 1.2394611686468124
+    },
+    {
+      "year": 2013,
+      "isoweek": 38,
+      "value": 4.708707615733147
+    },
+    {
+      "year": 2013,
+      "isoweek": 39,
+      "value": 9.170511797070503
+    },
+    {
+      "year": 2013,
+      "isoweek": 40,
+      "value": 15.120183944702148
+    },
+    {
+      "year": 2013,
+      "isoweek": 41,
+      "value": 25.03594572842121
+    },
+    {
+      "year": 2013,
+      "isoweek": 42,
+      "value": 10.163891360163689
+    },
+    {
+      "year": 2013,
+      "isoweek": 43,
+      "value": 34.9573187828064
+    },
+    {
+      "year": 2013,
+      "isoweek": 44,
+      "value": 6.9434684962034225
+    },
+    {
+      "year": 2013,
+      "isoweek": 45,
+      "value": 46.620139077305794
+    },
+    {
+      "year": 2013,
+      "isoweek": 46,
+      "value": 177.01737314462662
+    },
+    {
+      "year": 2013,
+      "isoweek": 47,
+      "value": 202.5468661338091
+    },
+    {
+      "year": 2013,
+      "isoweek": 48,
+      "value": 109.56667457520962
+    },
+    {
+      "year": 2013,
+      "isoweek": 49,
+      "value": 111.8276032358408
+    },
+    {
+      "year": 2013,
+      "isoweek": 50,
+      "value": 170.41001337766647
+    },
+    {
+      "year": 2013,
+      "isoweek": 51,
+      "value": 350.0337811857462
+    },
+    {
+      "year": 2013,
+      "isoweek": 52,
+      "value": 112.63902641832829
+    },
+    {
+      "year": 2014,
+      "isoweek": 1,
+      "value": 489.992887198925
+    },
+    {
+      "year": 2014,
+      "isoweek": 2,
+      "value": 357.0316242277622
+    },
+    {
+      "year": 2014,
+      "isoweek": 3,
+      "value": 154.31534935534
+    },
+    {
+      "year": 2014,
+      "isoweek": 4,
+      "value": 249.36064068973064
+    },
+    {
+      "year": 2014,
+      "isoweek": 5,
+      "value": 269.2355655878782
+    },
+    {
+      "year": 2014,
+      "isoweek": 6,
+      "value": 174.68488125503063
+    },
+    {
+      "year": 2014,
+      "isoweek": 7,
+      "value": 17.112132236361504
+    },
+    {
+      "year": 2014,
+      "isoweek": 8,
+      "value": 42.667230024933815
+    },
+    {
+      "year": 2014,
+      "isoweek": 9,
+      "value": 7.939827665686607
+    },
+    {
+      "year": 2014,
+      "isoweek": 10,
+      "value": 0.24812369048595428
+    },
+    {
+      "year": 2014,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 18,
+      "value": 0.9922364056110382
+    },
+    {
+      "year": 2014,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 22,
+      "value": 0.49615925550460815
+    },
+    {
+      "year": 2014,
+      "isoweek": 23,
+      "value": 3.4731147438287735
+    },
+    {
+      "year": 2014,
+      "isoweek": 24,
+      "value": 0.9925426691770554
+    },
+    {
+      "year": 2014,
+      "isoweek": 25,
+      "value": 2.483127072453499
+    },
+    {
+      "year": 2014,
+      "isoweek": 26,
+      "value": 1.4898749589920044
+    },
+    {
+      "year": 2014,
+      "isoweek": 27,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2014,
+      "isoweek": 35,
+      "value": 0.2483235001564026
+    },
+    {
+      "year": 2014,
+      "isoweek": 36,
+      "value": 1.4899401515722275
+    },
+    {
+      "year": 2014,
+      "isoweek": 37,
+      "value": 1.982610285282135
+    },
+    {
+      "year": 2014,
+      "isoweek": 38,
+      "value": 0.4956495314836502
+    },
+    {
+      "year": 2014,
+      "isoweek": 39,
+      "value": 0.7441768646240234
+    },
+    {
+      "year": 2014,
+      "isoweek": 40,
+      "value": 0.2478155791759491
+    },
+    {
+      "year": 2014,
+      "isoweek": 41,
+      "value": 0.7437495589256287
+    },
+    {
+      "year": 2014,
+      "isoweek": 42,
+      "value": 18.593442976474762
+    },
+    {
+      "year": 2014,
+      "isoweek": 43,
+      "value": 81.80758813023567
+    },
+    {
+      "year": 2014,
+      "isoweek": 44,
+      "value": 96.19008675217628
+    },
+    {
+      "year": 2014,
+      "isoweek": 45,
+      "value": 133.35886688530445
+    },
+    {
+      "year": 2014,
+      "isoweek": 46,
+      "value": 48.58674418926239
+    },
+    {
+      "year": 2014,
+      "isoweek": 47,
+      "value": 45.1186870187521
+    },
+    {
+      "year": 2014,
+      "isoweek": 48,
+      "value": 104.8753051161766
+    },
+    {
+      "year": 2014,
+      "isoweek": 49,
+      "value": 66.21215897798538
+    },
+    {
+      "year": 2014,
+      "isoweek": 50,
+      "value": 117.58117808401585
+    },
+    {
+      "year": 2014,
+      "isoweek": 51,
+      "value": 386.260993629694
+    },
+    {
+      "year": 2014,
+      "isoweek": 52,
+      "value": 563.4208629280329
+    },
+    {
+      "year": 2015,
+      "isoweek": 1,
+      "value": 546.3387760221958
+    },
+    {
+      "year": 2015,
+      "isoweek": 2,
+      "value": 439.90931329131126
+    },
+    {
+      "year": 2015,
+      "isoweek": 3,
+      "value": 253.99082811176777
+    },
+    {
+      "year": 2015,
+      "isoweek": 4,
+      "value": 355.99677677452564
+    },
+    {
+      "year": 2015,
+      "isoweek": 5,
+      "value": 475.63591961562634
+    },
+    {
+      "year": 2015,
+      "isoweek": 6,
+      "value": 110.3945500254631
+    },
+    {
+      "year": 2015,
+      "isoweek": 7,
+      "value": 50.867392897605896
+    },
+    {
+      "year": 2015,
+      "isoweek": 8,
+      "value": 84.56306594610214
+    },
+    {
+      "year": 2015,
+      "isoweek": 9,
+      "value": 56.293138921260834
+    },
+    {
+      "year": 2015,
+      "isoweek": 10,
+      "value": 68.23481154441833
+    },
+    {
+      "year": 2015,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 23,
+      "value": 0.2480577677488327
+    },
+    {
+      "year": 2015,
+      "isoweek": 24,
+      "value": 0.24812908470630646
+    },
+    {
+      "year": 2015,
+      "isoweek": 25,
+      "value": 0.4962112754583359
+    },
+    {
+      "year": 2015,
+      "isoweek": 26,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 27,
+      "value": 0.7434033304452896
+    },
+    {
+      "year": 2015,
+      "isoweek": 28,
+      "value": 0.743400827050209
+    },
+    {
+      "year": 2015,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 30,
+      "value": 0.7434736490249634
+    },
+    {
+      "year": 2015,
+      "isoweek": 31,
+      "value": 0.7434108704328537
+    },
+    {
+      "year": 2015,
+      "isoweek": 32,
+      "value": 7.929879307746887
+    },
+    {
+      "year": 2015,
+      "isoweek": 33,
+      "value": 2.9740855395793915
+    },
+    {
+      "year": 2015,
+      "isoweek": 34,
+      "value": 32.46912360191345
+    },
+    {
+      "year": 2015,
+      "isoweek": 35,
+      "value": 82.28807230293751
+    },
+    {
+      "year": 2015,
+      "isoweek": 36,
+      "value": 93.93585227429867
+    },
+    {
+      "year": 2015,
+      "isoweek": 37,
+      "value": 147.7339349836111
+    },
+    {
+      "year": 2015,
+      "isoweek": 38,
+      "value": 230.52522173523903
+    },
+    {
+      "year": 2015,
+      "isoweek": 39,
+      "value": 194.82518331706524
+    },
+    {
+      "year": 2015,
+      "isoweek": 40,
+      "value": 13.633300885558128
+    },
+    {
+      "year": 2015,
+      "isoweek": 41,
+      "value": 1.734989419579506
+    },
+    {
+      "year": 2015,
+      "isoweek": 42,
+      "value": 0.2478494644165039
+    },
+    {
+      "year": 2015,
+      "isoweek": 43,
+      "value": 0
+    },
+    {
+      "year": 2015,
+      "isoweek": 44,
+      "value": 0.24810382723808289
+    },
+    {
+      "year": 2015,
+      "isoweek": 45,
+      "value": 0.24810382723808289
+    },
+    {
+      "year": 2015,
+      "isoweek": 46,
+      "value": 4.961658909916878
+    },
+    {
+      "year": 2015,
+      "isoweek": 47,
+      "value": 9.923073664307594
+    },
+    {
+      "year": 2015,
+      "isoweek": 48,
+      "value": 13.395386904478073
+    },
+    {
+      "year": 2015,
+      "isoweek": 49,
+      "value": 40.683892369270325
+    },
+    {
+      "year": 2015,
+      "isoweek": 50,
+      "value": 18.1086785197258
+    },
+    {
+      "year": 2015,
+      "isoweek": 51,
+      "value": 111.3771249204874
+    },
+    {
+      "year": 2015,
+      "isoweek": 52,
+      "value": 659.6370725035667
+    },
+    {
+      "year": 2015,
+      "isoweek": 53,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 1,
+      "value": 126.27380587160587
+    },
+    {
+      "year": 2016,
+      "isoweek": 2,
+      "value": 432.6242727637291
+    },
+    {
+      "year": 2016,
+      "isoweek": 3,
+      "value": 425.44662280380726
+    },
+    {
+      "year": 2016,
+      "isoweek": 4,
+      "value": 423.2424357831478
+    },
+    {
+      "year": 2016,
+      "isoweek": 5,
+      "value": 288.27235002815723
+    },
+    {
+      "year": 2016,
+      "isoweek": 6,
+      "value": 237.893579185009
+    },
+    {
+      "year": 2016,
+      "isoweek": 7,
+      "value": 139.41926112771034
+    },
+    {
+      "year": 2016,
+      "isoweek": 8,
+      "value": 83.61069147288799
+    },
+    {
+      "year": 2016,
+      "isoweek": 9,
+      "value": 24.318724930286407
+    },
+    {
+      "year": 2016,
+      "isoweek": 10,
+      "value": 5.210722044110298
+    },
+    {
+      "year": 2016,
+      "isoweek": 11,
+      "value": 2.973942309617996
+    },
+    {
+      "year": 2016,
+      "isoweek": 12,
+      "value": 4.460912749171257
+    },
+    {
+      "year": 2016,
+      "isoweek": 13,
+      "value": 0.24783144891262054
+    },
+    {
+      "year": 2016,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 19,
+      "value": 0.49618127942085266
+    },
+    {
+      "year": 2016,
+      "isoweek": 20,
+      "value": 0.7439660131931305
+    },
+    {
+      "year": 2016,
+      "isoweek": 21,
+      "value": 2.4778280556201935
+    },
+    {
+      "year": 2016,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 23,
+      "value": 0.9932815134525299
+    },
+    {
+      "year": 2016,
+      "isoweek": 24,
+      "value": 7.4496089071035385
+    },
+    {
+      "year": 2016,
+      "isoweek": 25,
+      "value": 2.4829510897397995
+    },
+    {
+      "year": 2016,
+      "isoweek": 26,
+      "value": 0.9923047721385956
+    },
+    {
+      "year": 2016,
+      "isoweek": 27,
+      "value": 3.22468963265419
+    },
+    {
+      "year": 2016,
+      "isoweek": 28,
+      "value": 1.2401571422815323
+    },
+    {
+      "year": 2016,
+      "isoweek": 29,
+      "value": 0.2480274885892868
+    },
+    {
+      "year": 2016,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 32,
+      "value": 0.7447379976511002
+    },
+    {
+      "year": 2016,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2016,
+      "isoweek": 34,
+      "value": 9.932108893990517
+    },
+    {
+      "year": 2016,
+      "isoweek": 35,
+      "value": 3.4718078523874283
+    },
+    {
+      "year": 2016,
+      "isoweek": 36,
+      "value": 12.14833490550518
+    },
+    {
+      "year": 2016,
+      "isoweek": 37,
+      "value": 13.882275059819221
+    },
+    {
+      "year": 2016,
+      "isoweek": 38,
+      "value": 15.368835881352425
+    },
+    {
+      "year": 2016,
+      "isoweek": 39,
+      "value": 6.9403126537799835
+    },
+    {
+      "year": 2016,
+      "isoweek": 40,
+      "value": 15.123692765831947
+    },
+    {
+      "year": 2016,
+      "isoweek": 41,
+      "value": 47.84037105739117
+    },
+    {
+      "year": 2016,
+      "isoweek": 42,
+      "value": 40.40620721876621
+    },
+    {
+      "year": 2016,
+      "isoweek": 43,
+      "value": 109.0607775002718
+    },
+    {
+      "year": 2016,
+      "isoweek": 44,
+      "value": 243.9020225852728
+    },
+    {
+      "year": 2016,
+      "isoweek": 45,
+      "value": 121.19340774416924
+    },
+    {
+      "year": 2016,
+      "isoweek": 46,
+      "value": 5.454913631081581
+    },
+    {
+      "year": 2016,
+      "isoweek": 47,
+      "value": 4.961666166782379
+    },
+    {
+      "year": 2016,
+      "isoweek": 48,
+      "value": 28.5302764326334
+    },
+    {
+      "year": 2016,
+      "isoweek": 49,
+      "value": 109.42432640492916
+    },
+    {
+      "year": 2016,
+      "isoweek": 50,
+      "value": 608.1080403774977
+    },
+    {
+      "year": 2016,
+      "isoweek": 51,
+      "value": 795.3950942754745
+    },
+    {
+      "year": 2016,
+      "isoweek": 52,
+      "value": 103.70627970993519
+    },
+    {
+      "year": 2017,
+      "isoweek": 1,
+      "value": 867.1487683951855
+    },
+    {
+      "year": 2017,
+      "isoweek": 2,
+      "value": 346.64007122814655
+    },
+    {
+      "year": 2017,
+      "isoweek": 3,
+      "value": 70.96947279572487
+    },
+    {
+      "year": 2017,
+      "isoweek": 4,
+      "value": 133.2541790753603
+    },
+    {
+      "year": 2017,
+      "isoweek": 5,
+      "value": 76.66345448791981
+    },
+    {
+      "year": 2017,
+      "isoweek": 6,
+      "value": 27.02897883951664
+    },
+    {
+      "year": 2017,
+      "isoweek": 7,
+      "value": 24.06693208217621
+    },
+    {
+      "year": 2017,
+      "isoweek": 8,
+      "value": 8.683096796274185
+    },
+    {
+      "year": 2017,
+      "isoweek": 9,
+      "value": 0.24780318140983582
+    },
+    {
+      "year": 2017,
+      "isoweek": 10,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 18,
+      "value": 0.24809396266937256
+    },
+    {
+      "year": 2017,
+      "isoweek": 19,
+      "value": 0.24809396266937256
+    },
+    {
+      "year": 2017,
+      "isoweek": 20,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 21,
+      "value": 2.9798239022493362
+    },
+    {
+      "year": 2017,
+      "isoweek": 22,
+      "value": 1.2415919452905655
+    },
+    {
+      "year": 2017,
+      "isoweek": 23,
+      "value": 0.2482006698846817
+    },
+    {
+      "year": 2017,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 25,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 26,
+      "value": 0.2483181357383728
+    },
+    {
+      "year": 2017,
+      "isoweek": 27,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 30,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 31,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 35,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 36,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 37,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 38,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 39,
+      "value": 0.7442868947982788
+    },
+    {
+      "year": 2017,
+      "isoweek": 40,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 41,
+      "value": 0
+    },
+    {
+      "year": 2017,
+      "isoweek": 42,
+      "value": 1.2404564917087555
+    },
+    {
+      "year": 2017,
+      "isoweek": 43,
+      "value": 3.225190669298172
+    },
+    {
+      "year": 2017,
+      "isoweek": 44,
+      "value": 2.7289912700653076
+    },
+    {
+      "year": 2017,
+      "isoweek": 45,
+      "value": 7.442570224404335
+    },
+    {
+      "year": 2017,
+      "isoweek": 46,
+      "value": 33.73477628827095
+    },
+    {
+      "year": 2017,
+      "isoweek": 47,
+      "value": 37.44507883489132
+    },
+    {
+      "year": 2017,
+      "isoweek": 48,
+      "value": 72.89458437263966
+    },
+    {
+      "year": 2017,
+      "isoweek": 49,
+      "value": 471.29155522584915
+    },
+    {
+      "year": 2017,
+      "isoweek": 50,
+      "value": 321.638123229146
+    },
+    {
+      "year": 2017,
+      "isoweek": 51,
+      "value": 470.0215430110693
+    },
+    {
+      "year": 2017,
+      "isoweek": 52,
+      "value": 931.8902974128723
+    },
+    {
+      "year": 2018,
+      "isoweek": 1,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 2,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 3,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 4,
+      "value": 146.1301149725914
+    },
+    {
+      "year": 2018,
+      "isoweek": 5,
+      "value": 225.24573156237602
+    },
+    {
+      "year": 2018,
+      "isoweek": 6,
+      "value": 229.5787132382393
+    },
+    {
+      "year": 2018,
+      "isoweek": 7,
+      "value": 28.53379264473915
+    },
+    {
+      "year": 2018,
+      "isoweek": 8,
+      "value": 14.876240313053131
+    },
+    {
+      "year": 2018,
+      "isoweek": 9,
+      "value": 15.116857647895813
+    },
+    {
+      "year": 2018,
+      "isoweek": 10,
+      "value": 1.4869006872177124
+    },
+    {
+      "year": 2018,
+      "isoweek": 11,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 13,
+      "value": 0.4961261749267578
+    },
+    {
+      "year": 2018,
+      "isoweek": 14,
+      "value": 0.9922550320625305
+    },
+    {
+      "year": 2018,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 16,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 19,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 20,
+      "value": 0.24820789694786072
+    },
+    {
+      "year": 2018,
+      "isoweek": 21,
+      "value": 0.2480577677488327
+    },
+    {
+      "year": 2018,
+      "isoweek": 22,
+      "value": 1.9844242632389069
+    },
+    {
+      "year": 2018,
+      "isoweek": 23,
+      "value": 0.4961038678884506
+    },
+    {
+      "year": 2018,
+      "isoweek": 24,
+      "value": 2.9766276478767395
+    },
+    {
+      "year": 2018,
+      "isoweek": 25,
+      "value": 1.7363735884428024
+    },
+    {
+      "year": 2018,
+      "isoweek": 26,
+      "value": 8.930138498544693
+    },
+    {
+      "year": 2018,
+      "isoweek": 27,
+      "value": 22.825328588485718
+    },
+    {
+      "year": 2018,
+      "isoweek": 28,
+      "value": 21.334954291582108
+    },
+    {
+      "year": 2018,
+      "isoweek": 29,
+      "value": 19.36366242170334
+    },
+    {
+      "year": 2018,
+      "isoweek": 30,
+      "value": 5.214656695723534
+    },
+    {
+      "year": 2018,
+      "isoweek": 31,
+      "value": 4.221343547105789
+    },
+    {
+      "year": 2018,
+      "isoweek": 32,
+      "value": 1.489882841706276
+    },
+    {
+      "year": 2018,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2018,
+      "isoweek": 35,
+      "value": 1.488160789012909
+    },
+    {
+      "year": 2018,
+      "isoweek": 36,
+      "value": 5.702595695853233
+    },
+    {
+      "year": 2018,
+      "isoweek": 37,
+      "value": 21.81557869911194
+    },
+    {
+      "year": 2018,
+      "isoweek": 38,
+      "value": 130.86927351355553
+    },
+    {
+      "year": 2018,
+      "isoweek": 39,
+      "value": 158.63952443003654
+    },
+    {
+      "year": 2018,
+      "isoweek": 40,
+      "value": 73.12727858126163
+    },
+    {
+      "year": 2018,
+      "isoweek": 41,
+      "value": 6.692626982927322
+    },
+    {
+      "year": 2018,
+      "isoweek": 42,
+      "value": 13.879777655005455
+    },
+    {
+      "year": 2018,
+      "isoweek": 43,
+      "value": 14.872874036431313
+    },
+    {
+      "year": 2018,
+      "isoweek": 44,
+      "value": 7.188061565160751
+    },
+    {
+      "year": 2018,
+      "isoweek": 45,
+      "value": 34.45334869623184
+    },
+    {
+      "year": 2018,
+      "isoweek": 46,
+      "value": 81.05765499174595
+    },
+    {
+      "year": 2018,
+      "isoweek": 47,
+      "value": 52.065158635377884
+    },
+    {
+      "year": 2018,
+      "isoweek": 48,
+      "value": 74.13547350466251
+    },
+    {
+      "year": 2018,
+      "isoweek": 49,
+      "value": 16.856139615178108
+    },
+    {
+      "year": 2018,
+      "isoweek": 50,
+      "value": 56.55083093047142
+    },
+    {
+      "year": 2018,
+      "isoweek": 51,
+      "value": 60.78939785063267
+    },
+    {
+      "year": 2018,
+      "isoweek": 52,
+      "value": 56.07328890264034
+    },
+    {
+      "year": 2019,
+      "isoweek": 1,
+      "value": 472.6377125829458
+    },
+    {
+      "year": 2019,
+      "isoweek": 2,
+      "value": 206.41172383725643
+    },
+    {
+      "year": 2019,
+      "isoweek": 3,
+      "value": 455.0607143044472
+    },
+    {
+      "year": 2019,
+      "isoweek": 4,
+      "value": 428.74365559220314
+    },
+    {
+      "year": 2019,
+      "isoweek": 5,
+      "value": 286.57283483445644
+    },
+    {
+      "year": 2019,
+      "isoweek": 6,
+      "value": 168.2225030809641
+    },
+    {
+      "year": 2019,
+      "isoweek": 7,
+      "value": 38.45626352727413
+    },
+    {
+      "year": 2019,
+      "isoweek": 8,
+      "value": 54.09331965446472
+    },
+    {
+      "year": 2019,
+      "isoweek": 9,
+      "value": 38.461377039551735
+    },
+    {
+      "year": 2019,
+      "isoweek": 10,
+      "value": 67.241828083992
+    },
+    {
+      "year": 2019,
+      "isoweek": 11,
+      "value": 21.591655895113945
+    },
+    {
+      "year": 2019,
+      "isoweek": 12,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 13,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 14,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 15,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 16,
+      "value": 1.240574523806572
+    },
+    {
+      "year": 2019,
+      "isoweek": 17,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 18,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 19,
+      "value": 0.74419105052948
+    },
+    {
+      "year": 2019,
+      "isoweek": 20,
+      "value": 2.23252335190773
+    },
+    {
+      "year": 2019,
+      "isoweek": 21,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 22,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 23,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 24,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 25,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 26,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 27,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 28,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 29,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 30,
+      "value": 1.489873543381691
+    },
+    {
+      "year": 2019,
+      "isoweek": 31,
+      "value": 0.24831216037273407
+    },
+    {
+      "year": 2019,
+      "isoweek": 32,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 33,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 34,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 35,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 36,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 37,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 38,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 39,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 40,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 41,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 42,
+      "value": 0
+    },
+    {
+      "year": 2019,
+      "isoweek": 43,
+      "value": 0.24808728694915771
+    },
+    {
+      "year": 2019,
+      "isoweek": 44,
+      "value": 4.713414132595062
+    },
+    {
+      "year": 2019,
+      "isoweek": 45,
+      "value": 4.465272635221481
+    },
+    {
+      "year": 2019,
+      "isoweek": 46,
+      "value": 4.96162536740303
+    },
+    {
+      "year": 2019,
+      "isoweek": 47,
+      "value": 1.9843599498271942
+    },
+    {
+      "year": 2019,
+      "isoweek": 48,
+      "value": 3.2225429117679596
+    },
+    {
+      "year": 2019,
+      "isoweek": 49,
+      "value": 3.2235197275877
+    },
+    {
+      "year": 2019,
+      "isoweek": 50,
+      "value": 19.59336367249489
+    },
+    {
+      "year": 2019,
+      "isoweek": 51,
+      "value": 137.42100320756435
+    },
+    {
+      "year": 2019,
+      "isoweek": 52,
+      "value": 494.3526313751936
+    },
+    {
+      "year": 2020,
+      "isoweek": 1,
+      "value": 533.9228383302689
+    },
+    {
+      "year": 2020,
+      "isoweek": 2,
+      "value": 533.3047783076763
+    },
+    {
+      "year": 2020,
+      "isoweek": 3,
+      "value": 245.08868105709553
+    },
+    {
+      "year": 2020,
+      "isoweek": 4,
+      "value": 114.07946749031544
+    },
+    {
+      "year": 2020,
+      "isoweek": 5,
+      "value": 34.474357545375824
+    },
+    {
+      "year": 2020,
+      "isoweek": 6,
+      "value": 6.198266252875328
+    },
+    {
+      "year": 2020,
+      "isoweek": 7,
+      "value": 55.53341893851757
+    },
+    {
+      "year": 2020,
+      "isoweek": 8,
+      "value": 83.36832723021507
+    }
+  ],
+  "start_date": "2000-11-01",
+  "end_date": "2020-03-01"
+}

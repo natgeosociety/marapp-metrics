@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
+black = "*"
+pytest-xdist = "*"
+pre-commit = "*"
+
+[packages]
+earthengine-api = "*"
+geopandas = "*"
+shapely = "*"
+geojson = "*"
+pyyaml = "*"
+numpy = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true

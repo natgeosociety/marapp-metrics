@@ -1,0 +1,11 @@
+metrics:
+  <type>:
+    dataset: '<project_earthengine_asset_path>'
+    slug: '<type-slug>'
+
+  <other_type>:
+    dataset:
+      <year_1>: '<project_earthengine_asset_path_year_1>'
+      <year_2>: '<project_earthengine_asset_path_year_2>'
+      # ...
+    slug: '<other-slug>'
