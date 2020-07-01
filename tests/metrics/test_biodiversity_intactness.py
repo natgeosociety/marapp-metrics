@@ -20,10 +20,6 @@ logger = logging.getLogger(__name__)
     "shape_path,metric_path",
     [
         (
-            "fixtures/shapes/rothschild-giraffe-feature-collection.geojson",
-            "fixtures/metrics/biodiversity-intactness/rothschild-giraffe-data.json",
-        ),
-        (
             "fixtures/shapes/romania-feature-collection.geojson",
             "fixtures/metrics/biodiversity-intactness/romania-data.json",
         ),
@@ -79,10 +75,6 @@ def test_compute_basic(shape_path, metric_path):
 @pytest.mark.parametrize(
     "shape_path,metric_path",
     [
-        (
-            "fixtures/shapes/rothschild-giraffe-feature-collection.geojson",
-            "fixtures/metrics/biodiversity-intactness/rothschild-giraffe-gridded-data.json",
-        ),
         # (
         #     "fixtures/shapes/canada-feature-collection.geojson",
         #     "fixtures/metrics/biodiversity-intactness/canada-gridded-data.json",

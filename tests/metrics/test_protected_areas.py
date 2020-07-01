@@ -16,10 +16,6 @@ from ..util import (
     "shape_path,metric_path",
     [
         (
-            "fixtures/shapes/rothschild-giraffe-feature-collection.geojson",
-            "fixtures/metrics/protected-areas/rothschild-giraffe-data.json",
-        ),
-        (
             "fixtures/shapes/romania-feature-collection.geojson",
             "fixtures/metrics/protected-areas/romania-data.json",
         ),
@@ -75,10 +71,6 @@ def test_compute_basic(shape_path, metric_path):
 @pytest.mark.parametrize(
     "shape_path,metric_path",
     [
-        (
-            "fixtures/shapes/rothschild-giraffe-feature-collection.geojson",
-            "fixtures/metrics/protected-areas/rothschild-giraffe-gridded-data.json",
-        ),
         # (
         #     "fixtures/shapes/canada-feature-collection.geojson",
         #     "fixtures/metrics/protected-areas/canada-gridded-data.json",
