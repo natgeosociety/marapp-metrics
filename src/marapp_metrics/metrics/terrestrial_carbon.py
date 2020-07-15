@@ -54,7 +54,7 @@ class TerrestrialCarbon(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.terrestrial_carbon.slug")
+    slug = "terrestrial-carbon"
 
     def __init__(self, **kwargs):
         """

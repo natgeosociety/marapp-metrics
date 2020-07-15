@@ -138,7 +138,7 @@ The package can now be installed from the Git repository.
 
 ## Configure Earth Engine assets
 
-The template from [earthengine.yaml](src/earthpulse_metrics/config/earthengine.yaml) is required to map existing [Google Earth Engine](https://earthengine.google.com) image assets to computations supported by the library.
+The template from [earthengine.yaml](src/earthpulse_metrics/earthengine.yaml) is required to map existing [Google Earth Engine](https://earthengine.google.com) image assets to computations supported by the library.
 
 For more details about managing assets in Earth Engine, see: https://developers.google.com/earth-engine/asset_manager
 

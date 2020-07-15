@@ -44,7 +44,7 @@ class LandUseLandCover(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.land_use.slug")
+    slug = "land-use"
 
     def __init__(self, **kwargs):
         """

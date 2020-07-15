@@ -41,9 +41,6 @@ class MetricComputeException(Exception):
 
 
 class MetricBase:
-    config_filepath = "config/earthengine.yaml"
-    config = Config(config_filepath)  # class_attr
-
     slug = NotImplemented
 
     def __init__(self, **kwargs):
@@ -78,7 +75,7 @@ class MetricBase:
         if self._best_effort:
             self.max_pixels = 1e7
 
-        filepath = kwargs.get("config_filepath", "config/earthengine.yaml")
+        filepath = kwargs.get("config_filepath", "earthengine.yaml")
         self._config = Config(filepath)
 
     def measure(self, gdf, area_km2=None):

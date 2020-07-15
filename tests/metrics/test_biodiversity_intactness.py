@@ -19,9 +19,7 @@
 
 import logging
 import pytest
-from marapp_metrics.metrics.biodiversity_intactness import (
-    BiodiversityIntactnessMetric,
-)
+from marapp_metrics.metrics.biodiversity_intactness import BiodiversityIntactnessMetric
 
 from ..util import (
     json_reader,

@@ -1,0 +1,25 @@
+metrics:
+  biodiversity_intactness:
+    dataset: '<earthengine_asset_id>'
+  human_impact:
+    dataset: '<earthengine_asset_id>'
+  protected_areas:
+    dataset: '<earthengine_asset_id>'
+  terrestrial_carbon:
+    dataset:
+      total: '<earthengine_asset_id>'
+      carbon: '<earthengine_asset_id>'
+  human_footprint:
+    dataset:
+      <year_1>: '<earthengine_asset_id_year_1>'
+      # ...
+  land_use:
+    dataset: '<earthengine_asset_id>'
+  tree_loss:
+    dataset: '<earthengine_asset_id>'
+  modis_fire:
+    dataset: '<earthengine_asset_id>'
+  modis_evi:
+    dataset:
+      <year_1>: '<earthengine_asset_id_year_1>'
+      # ...

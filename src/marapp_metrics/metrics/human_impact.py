@@ -59,7 +59,7 @@ class HumanInfluenceEnsembleMetric(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.human_impact.slug")
+    slug = "human-impact"
 
     def __init__(self, **kwargs):
         """
