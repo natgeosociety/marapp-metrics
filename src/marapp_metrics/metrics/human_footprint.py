@@ -31,7 +31,7 @@ class HumanFootprint(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.human_footprint.slug")
+    slug = "human-footprint"
 
     def __init__(self, **kwargs):
         """

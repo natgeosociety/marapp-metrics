@@ -39,7 +39,7 @@ class ModisEvi(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.modis_evi.slug")
+    slug = "modis-evi"
 
     def __init__(self, **kwargs):
         """

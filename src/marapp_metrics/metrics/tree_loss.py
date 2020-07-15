@@ -24,7 +24,7 @@ class TreeLoss(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.tree_loss.slug")
+    slug = "tree-loss"
 
     def __init__(self, **kwargs):
         """

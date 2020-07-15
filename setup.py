@@ -16,6 +16,6 @@ setup(
     version=__version__,
     packages=find_packages("src"),
     package_dir={"": "src"},
-    package_data={"marapp_metrics": ["config/*.yaml", "sample-data/*.json"]},
+    package_data={"marapp_metrics": ["sample-data/*.json"]},
     install_requires=install_requires,
 )

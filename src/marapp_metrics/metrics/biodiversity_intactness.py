@@ -38,7 +38,7 @@ class BiodiversityIntactnessMetric(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.biodiversity_intactness.slug")
+    slug = "biodiversity-intactness"
 
     def __init__(self, **kwargs):
         """

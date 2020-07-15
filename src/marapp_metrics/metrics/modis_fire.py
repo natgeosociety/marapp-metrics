@@ -25,7 +25,7 @@ class ModisFire(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.modis_fire.slug")
+    slug = "modis-fire"
 
     def __init__(self, **kwargs):
         """

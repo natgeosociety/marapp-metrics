@@ -32,7 +32,7 @@ class ProtectedAreas(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.protected_areas.slug")
+    slug = "protected-areas"
 
     def __init__(self, **kwargs):
         """
