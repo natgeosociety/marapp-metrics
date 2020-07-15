@@ -34,7 +34,7 @@ class MetricBase:
         :keyword simplify: Bool
         :keyword simplify_tolerance: Level to which shape is simplified
         :keyword area_threshold: Size at which polygons are broken into grids
-        :keyword grid_dimension: Grid dimension
+        :keyword grid_dimension: Grid dimension in arc degrees
         :keyword config_filepath: Yaml config file
         """
         # Initialize Earth Engine, using the authentication credentials.
@@ -215,7 +215,7 @@ class MetricBase:
         """
         Breaks down a feature into an N x N grid and returns a new list of ee.Features.
         :param ee_feature:  ee.Feature
-        :param grid_dimension: Grid dimension
+        :param grid_dimension: Grid dimension in arc degrees
         :return: list of ee.Features
         """
         # Get bounds of grid
