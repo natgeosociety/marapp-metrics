@@ -213,7 +213,7 @@ if __name__ == "__main__":
     logger.debug(f"Importing geometry from: {data_path}")
     gdf = gpd.read_file(data_path)
 
-    modis_evi = ModisEvi()
+    modis_evi = ModisEvi(config_filepath="src/marapp_metrics/earthengine.yaml")
 
     logger.debug(f"Running computations for: {modis_evi.slug}")
     m = modis_evi.measure(gdf)

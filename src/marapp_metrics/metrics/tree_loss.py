@@ -124,7 +124,12 @@ if __name__ == "__main__":
     logger.debug(f"Importing geometry from {data_path}")
     gdf = gpd.read_file(data_path)
 
-    tree_loss = TreeLoss(grid=True, simplify=True, best_effort=False)
+    tree_loss = TreeLoss(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
+        grid=True,
+        simplify=True,
+        best_effort=False,
+    )
 
     logger.debug(f"Running computations for: {tree_loss.slug}")
     m = tree_loss.measure(gdf)

@@ -46,7 +46,7 @@ def test_compute_basic(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = ModisFire()
+    handler = ModisFire(config_filepath="src/marapp_metrics/earthengine.yaml")
 
     # Compute the metric..
     metric = handler.measure(gdf)
@@ -86,7 +86,12 @@ def test_compute_grid(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = ModisFire(grid=True, simplify=True, best_effort=False)
+    handler = ModisFire(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
+        grid=True,
+        simplify=True,
+        best_effort=False,
+    )
 
     # Compute the metric..
     metric = handler.measure(gdf)
