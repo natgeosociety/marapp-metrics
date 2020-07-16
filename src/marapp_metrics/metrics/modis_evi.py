@@ -49,7 +49,7 @@ class ModisEvi(MetricBase):
         - pixel scale (m)
         - GEE Image Asset
         """
-        super().__init__()
+        super().__init__(**kwargs)
 
         # compute flags
         self._scale = kwargs.get("scale", self.default_scale)

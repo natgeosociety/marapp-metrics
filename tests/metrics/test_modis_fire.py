@@ -122,7 +122,9 @@ def test_throw_area_exception(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = ModisFire(use_exceeds_limit=True)
+    handler = ModisFire(
+        config_filepath="src/marapp_metrics/earthengine.yaml", use_exceeds_limit=True
+    )
 
     # Large shape should throw an exception
     with pytest.raises(MetricComputeException):
