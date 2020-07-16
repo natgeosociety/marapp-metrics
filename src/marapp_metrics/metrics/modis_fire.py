@@ -203,7 +203,7 @@ if __name__ == "__main__":
         end_date="2018-12-31",
         grid=True,
         area_threshold=1e6,
-        grid_dimension=10,
+        grid_size=10,
         simplify=True,
         simplify_tolerance=0.001,
     )  # grid=True, simplify=True, best_effort=False)
