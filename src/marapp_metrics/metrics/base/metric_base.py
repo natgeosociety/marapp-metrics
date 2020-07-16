@@ -221,6 +221,7 @@ class MetricBase:
 
         # Arc grid JS equivalent here https://code.earthengine.google.com/bdb4f409515d1fda0592a8330a0f6528
 
+
         # Get bounds of grid
         bounds = ee_feature.bounds().geometry().bounds().getInfo()
 
@@ -231,6 +232,13 @@ class MetricBase:
         lon_end = max(x_coords)
         lat_start = min(y_coords)
         lat_end = max(y_coords)
+
+        lon_width = lon_end - lon_start
+        lat_width = lat_end - lat_start
+
+        # test grid size against bounding box
+        if lon_width/2 < grid_dimension and lat_width/2 < grid_dimension:
+            logger.warning(f"Expecting less than 4 grids. Consider using a smaller grid dimension.")
 
         # Generate grid over ee_feature
         polys = []
