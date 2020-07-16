@@ -218,6 +218,9 @@ class MetricBase:
         :param grid_dimension: Grid dimension in arc degrees
         :return: list of ee.Features
         """
+
+        # Arc grid JS equivalent here https://code.earthengine.google.com/bdb4f409515d1fda0592a8330a0f6528
+
         # Get bounds of grid
         bounds = ee_feature.bounds().geometry().bounds().getInfo()
 
@@ -229,23 +232,19 @@ class MetricBase:
         lat_start = min(y_coords)
         lat_end = max(y_coords)
 
-        num_cells = grid_dimension * grid_dimension
-        lon_edge = (lon_end - lon_start) / (num_cells ** 0.5)
-        lat_edge = (lat_end - lat_start) / (num_cells ** 0.5)
-
         # Generate grid over ee_feature
         polys = []
         lon = lon_start
-        for i in range(0, self.grid_dimension):
+        while lon < lon_end:
             x1 = lon
-            x2 = lon + lon_edge
-            lon += lon_edge
+            x2 = lon + grid_dimension
+            lon += grid_dimension
 
             lat = lat_start
-            for j in range(0, self.grid_dimension):
+            while lat < lat_end:
                 y1 = lat
-                y2 = lat + lat_edge
-                lat += lat_edge
+                y2 = lat + grid_dimension
+                lat += grid_dimension
 
                 polys.append(ee.Feature(ee.Geometry.Rectangle(x1, y1, x2, y2), {}))
 
