@@ -39,7 +39,7 @@ class ModisEvi(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.modis_evi.slug")
+    slug = "modis-evi"
 
     def __init__(self, **kwargs):
         """
@@ -49,7 +49,7 @@ class ModisEvi(MetricBase):
         - pixel scale (m)
         - GEE Image Asset
         """
-        super().__init__()
+        super().__init__(**kwargs)
 
         # compute flags
         self._scale = kwargs.get("scale", self.default_scale)
@@ -213,7 +213,7 @@ if __name__ == "__main__":
     logger.debug(f"Importing geometry from: {data_path}")
     gdf = gpd.read_file(data_path)
 
-    modis_evi = ModisEvi()
+    modis_evi = ModisEvi(config_filepath="src/marapp_metrics/earthengine.yaml")
 
     logger.debug(f"Running computations for: {modis_evi.slug}")
     m = modis_evi.measure(gdf)

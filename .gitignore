@@ -127,3 +127,9 @@ dmypy.json
 
 # editor
 *.iml
+
+# test fixtures
+tests/fixtures/metrics
+
+# config
+*/**/earthengine.yaml

@@ -32,7 +32,7 @@ class ProtectedAreas(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.protected_areas.slug")
+    slug = "protected-areas"
 
     def __init__(self, **kwargs):
         """
@@ -156,7 +156,12 @@ if __name__ == "__main__":
     logger.debug(f"Importing geometry from {data_path}")
     gdf = gpd.read_file(data_path)
 
-    protected_areas = ProtectedAreas(grid=True, simplify=True, best_effort=False)
+    protected_areas = ProtectedAreas(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
+        grid=True,
+        simplify=True,
+        best_effort=False,
+    )
 
     logger.debug(f"Running computations for: {protected_areas.slug}")
     m = protected_areas.measure(gdf)

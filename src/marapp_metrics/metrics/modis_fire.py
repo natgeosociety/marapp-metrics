@@ -25,7 +25,7 @@ class ModisFire(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.modis_fire.slug")
+    slug = "modis-fire"
 
     def __init__(self, **kwargs):
         """
@@ -199,6 +199,7 @@ if __name__ == "__main__":
     gdf = gpd.read_file(data_path)
 
     modis_fire = ModisFire(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
         start_date="2018-01-01",
         end_date="2018-12-31",
         grid=True,
@@ -206,7 +207,8 @@ if __name__ == "__main__":
         grid_size=10,
         simplify=True,
         simplify_tolerance=0.001,
-    )  # grid=True, simplify=True, best_effort=False)
+        best_effort=False,
+    )
 
     logger.debug(f"Running computations for: {modis_fire.slug}")
     m = modis_fire.measure(gdf)

@@ -35,7 +35,7 @@ class TerrestrialCarbon(MetricBase):
     default_best_effort = True
 
     # config
-    slug = MetricBase.config.get_property("metrics.terrestrial_carbon.slug")
+    slug = "terrestrial-carbon"
 
     def __init__(self, **kwargs):
         """
@@ -146,7 +146,12 @@ if __name__ == "__main__":
     logger.debug(f"Importing geometry from: {data_path}")
     gdf = gpd.read_file(data_path)
 
-    terrestrial_carbon = TerrestrialCarbon(grid=True, simplify=True, best_effort=False)
+    terrestrial_carbon = TerrestrialCarbon(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
+        grid=True,
+        simplify=True,
+        best_effort=False,
+    )
 
     logger.debug(f"Running computations for: {terrestrial_carbon.slug}")
     m = terrestrial_carbon.measure(gdf)
