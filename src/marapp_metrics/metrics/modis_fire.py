@@ -193,7 +193,7 @@ class ModisFire(MetricBase):
 if __name__ == "__main__":
     import geopandas as gpd
 
-    data_path = "sample-data/akagera.geojson"
+    data_path = "sample-data/romania.geojson"
 
     logger.debug(f"Importing geometry from {data_path}")
     gdf = gpd.read_file(data_path)
@@ -204,7 +204,7 @@ if __name__ == "__main__":
         end_date="2018-12-31",
         grid=True,
         area_threshold=1e6,
-        grid_size=10,
+        grid_size=0.5,
         simplify=True,
         simplify_tolerance=0.001,
         best_effort=False,

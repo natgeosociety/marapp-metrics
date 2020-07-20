@@ -219,7 +219,7 @@ class HumanInfluenceEnsembleMetric(MetricBase):
 if __name__ == "__main__":
     import geopandas as gpd
 
-    data_path = "sample-data/rothschild-giraffe.geojson"
+    data_path = "sample-data/romania.geojson"
 
     logger.debug(f"Importing geometry from: {data_path}")
     gdf = gpd.read_file(data_path)
