@@ -201,8 +201,10 @@ class MetricBase:
                     )
                 else:
                     gridded_feature_list += [feat["ee_feature"]]
-        
-            logger.info(f"Created {len(gridded_feature_list)} grid cells of size {self.grid_size_degrees} arc-degrees.")
+
+            logger.info(
+                f"Created {len(gridded_feature_list)} grid cells of size {self.grid_size_degrees} arc-degrees."
+            )
             return gridded_feature_list
         else:
             return [
@@ -235,8 +237,10 @@ class MetricBase:
         lat_width = lat_end - lat_start
 
         # test grid size against bounding box
-        if lon_width/2 < grid_size_degrees and lat_width/2 < grid_size_degrees:
-            logger.warning("Expecting less than 4 grids. Consider using a smaller grid_size_degrees or larger area_threshold.")
+        if lon_width / 2 < grid_size_degrees and lat_width / 2 < grid_size_degrees:
+            logger.warning(
+                "Expecting less than 4 grids. Consider using a smaller grid_size_degrees or larger area_threshold."
+            )
 
         # Generate grid over ee_feature
         polys = []
