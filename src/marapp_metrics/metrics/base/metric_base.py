@@ -32,6 +32,7 @@ class MetricBase:
         :keyword simplify_tolerance: Level to which shape is simplified
         :keyword area_threshold: Size at which polygons are broken into grids
         :keyword grid_size_degrees: Grid size in arc degrees
+        :keyword chunk_size: Analyse in blocks
         :keyword config_filepath: Yaml config file
         """
         # Initialize Earth Engine, using the authentication credentials.
@@ -41,7 +42,7 @@ class MetricBase:
         self.simplify = kwargs.get("simplify", False)
         self.simplify_tolerance = 0.00001
         self.area_threshold = kwargs.get("area_threshold", 1e6)
-        self.grid_size_degrees = kwargs.get("grid_size_degrees", 20)
+        self.grid_size_degrees = kwargs.get("grid_size_degrees", 10)
         self.precision = kwargs.get("precision", 5)
         self._scale = kwargs.get("scale", 300)
         self._best_effort = kwargs.get("best_effort", False)
@@ -100,7 +101,7 @@ class MetricBase:
 
         data = []
         for i, feats in enumerate(chunked_feat_cols):
-            logger.info(f"Analysing chunk {i + 1}/{math.ceil(len(feats_list) / n) + 1}")
+            logger.info(f"Analysing chunk {i+1}")
             for k, v in reducers.items():
                 im = v["image"]
                 reducer = v["reducer"]
@@ -200,7 +201,8 @@ class MetricBase:
                     )
                 else:
                     gridded_feature_list += [feat["ee_feature"]]
-
+        
+            logger.info(f"Created {len(gridded_feature_list)} grid cells of size {self.grid_size_degrees} arc-degrees.")
             return gridded_feature_list
         else:
             return [
@@ -234,7 +236,7 @@ class MetricBase:
 
         # test grid size against bounding box
         if lon_width/2 < grid_size_degrees and lat_width/2 < grid_size_degrees:
-            logger.warning(f"Expecting less than 4 grids. Consider using a smaller grid size.")
+            logger.warning("Expecting less than 4 grids. Consider using a smaller grid_size_degrees or larger area_threshold.")
 
         # Generate grid over ee_feature
         polys = []
