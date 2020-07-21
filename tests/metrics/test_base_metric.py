@@ -15,17 +15,14 @@ from ..util import (
     [("fixtures/shapes/canada-feature-collection.geojson", "",)],
 )
 def test_create_grid(shape_path, metric_path):
-    # Load the geometry..
-    gdf = geojson_reader(shape_path)
-    assert not gdf.empty
+    # Create the geometry.
+    base = MetricBase(config_filepath="src/marapp_metrics/earthengine.yaml")
 
-    polygon = ee.Geometry.Polygon([
-    [[-10, -10], [10, -10], [10, 10], [-10, 10], [-10, -10]]
-    ])
-
-    ee_feature = ee.Feature(polygon,{})
-
-    grids = MetricBase._create_grid(ee_feature, 1)
-
+    degrees = 0.5
+    polygon = ee.Geometry.Polygon(
+        [[[10, 10], [20, 10], [20, 20], [10, 20], [10, 10]]]
+    )
+    ee_feature = ee.Feature(polygon, {})
+    grids = base._create_grid(ee_feature, degrees)
     ## Check that coorrect number of grids are made
-    assert len(grids) == 20*20
+    assert len(grids) == 20 * (20 + 1)
