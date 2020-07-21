@@ -238,9 +238,7 @@ class MetricBase:
 
         # test grid size against bounding box
         if grid_size_degrees > lon_width and grid_size_degrees > lat_width:
-            logger.info(
-                "Grid larger than feature. Skipping."
-            )
+            logger.info("Grid larger than feature. Skipping.")
             return [ee_feature]
 
         elif grid_size_degrees > lon_width / 2 and grid_size_degrees > lat_width / 2:
