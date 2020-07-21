@@ -42,7 +42,7 @@ class MetricBase:
         self.simplify = kwargs.get("simplify", False)
         self.simplify_tolerance = 0.00001
         self.area_threshold = kwargs.get("area_threshold", 1e6)
-        self.grid_size_degrees = kwargs.get("grid_size_degrees", 10)
+        self.grid_size_degrees = kwargs.get("grid_size_degrees", 1)
         self.precision = kwargs.get("precision", 5)
         self._scale = kwargs.get("scale", 300)
         self._best_effort = kwargs.get("best_effort", False)
@@ -237,7 +237,13 @@ class MetricBase:
         lat_width = lat_end - lat_start
 
         # test grid size against bounding box
-        if lon_width / 2 < grid_size_degrees and lat_width / 2 < grid_size_degrees:
+        if grid_size_degrees > lon_width and grid_size_degrees > lat_width:
+            logger.info(
+                "Grid larger than feature. Skipping."
+            )
+            return [ee_feature]
+
+        elif grid_size_degrees > lon_width / 2 and grid_size_degrees > lat_width / 2:
             logger.warning(
                 "Expecting less than 4 grids. Consider using a smaller grid_size_degrees or larger area_threshold."
             )
