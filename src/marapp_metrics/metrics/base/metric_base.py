@@ -1,7 +1,6 @@
 import ee
 import geojson
 import geopandas as gpd
-import math
 import pandas as pd
 from collections.abc import Iterable
 from shapely import wkt
