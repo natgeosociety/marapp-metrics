@@ -20,6 +20,7 @@
 import collections
 import ee
 
+from ..helpers.util import abspath
 from .base.metric_base import MetricBase, MetricPackageException
 from ..helpers.earthengine import simple_mask_function
 from ..helpers.logging import get_logger
@@ -244,7 +245,7 @@ if __name__ == "__main__":
     gdf = gpd.read_file(data_path)
 
     human_impact = HumanInfluenceEnsembleMetric(
-        config_filepath="src/marapp_metrics/earthengine.yaml",
+        config_filepath=abspath("../earthengine.yaml"),
         grid=True,
         simplify=True,
         best_effort=False,

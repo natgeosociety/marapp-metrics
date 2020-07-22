@@ -19,8 +19,9 @@
 
 import pytest
 from marapp_metrics.metrics.base.metric_base import MetricComputeException
-
+from marapp_metrics.helpers.util import abspath
 from marapp_metrics.metrics.modis_evi import ModisEvi
+
 from ..util import (
     json_reader,
     traverse_nested,
@@ -53,7 +54,9 @@ def test_compute_basic(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = ModisEvi(config_filepath="src/marapp_metrics/earthengine.yaml")
+    handler = ModisEvi(
+        config_filepath=abspath("../../marapp_metrics/earthengine.yaml"),
+    )
 
     # Compute the metric..
     metric = handler.measure(gdf)
@@ -98,7 +101,7 @@ def test_compute_grid(shape_path, metric_path):
     assert not gdf.empty
 
     handler = ModisEvi(
-        config_filepath="src/marapp_metrics/earthengine.yaml",
+        config_filepath=abspath("../../marapp_metrics/earthengine.yaml"),
         grid=True,
         simplify=True,
         best_effort=False,
@@ -134,7 +137,8 @@ def test_throw_area_exception(shape_path, metric_path):
     assert not gdf.empty
 
     handler = ModisEvi(
-        config_filepath="src/marapp_metrics/earthengine.yaml", use_exceeds_limit=True
+        config_filepath=abspath("../../marapp_metrics/earthengine.yaml"),
+        use_exceeds_limit=True,
     )
 
     # Large shape should throw an exception

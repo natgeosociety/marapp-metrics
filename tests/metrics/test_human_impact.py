@@ -19,7 +19,7 @@
 
 import pytest
 from marapp_metrics.metrics.human_impact import HumanInfluenceEnsembleMetric
-
+from marapp_metrics.helpers.util import abspath
 from ..util import (
     json_reader,
     traverse_nested,
@@ -53,7 +53,7 @@ def test_compute_basic(shape_path, metric_path):
     assert not gdf.empty
 
     handler = HumanInfluenceEnsembleMetric(
-        config_filepath="src/marapp_metrics/earthengine.yaml"
+        config_filepath=abspath("../../marapp_metrics/earthengine.yaml"),
     )
 
     # Compute the metric..
@@ -99,7 +99,7 @@ def test_compute_grid(shape_path, metric_path):
     assert not gdf.empty
 
     handler = HumanInfluenceEnsembleMetric(
-        config_filepath="src/marapp_metrics/earthengine.yaml",
+        config_filepath=abspath("../../marapp_metrics/earthengine.yaml"),
         grid=True,
         simplify=True,
         best_effort=False,

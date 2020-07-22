@@ -46,3 +46,10 @@ def json_reader(filename):
                 raise DataReadException(f"Could not decode data at: {filename}")
     except Exception:
         raise FileNotFoundError(f"Could not find filename: {filename}")
+
+
+def abspath(relative_path):
+    """Build an absolute path from relative path"""
+
+    parent = path.abspath(path.dirname(__file__))
+    return path.join(parent, relative_path)

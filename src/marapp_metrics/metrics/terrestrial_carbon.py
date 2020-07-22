@@ -23,6 +23,7 @@ import ee
 from .base.metric_base import MetricBase, MetricPackageException
 from ..helpers.earthengine import simple_mask_function
 from ..helpers.logging import get_logger
+from ..helpers.util import abspath
 
 logger = get_logger("terrestrial-carbon")
 
@@ -166,7 +167,7 @@ if __name__ == "__main__":
     gdf = gpd.read_file(data_path)
 
     terrestrial_carbon = TerrestrialCarbon(
-        config_filepath="src/marapp_metrics/earthengine.yaml",
+        config_filepath=abspath("../earthengine.yaml"),
         grid=True,
         simplify=True,
         best_effort=False,

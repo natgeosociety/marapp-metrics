@@ -24,6 +24,7 @@ from datetime import timedelta, datetime
 from .base.metric_base import MetricBase, MetricPackageException
 from ..helpers.earthengine import filter_fires
 from ..helpers.logging import get_logger
+from ..helpers.util import abspath
 
 logger = get_logger("modis-fire")
 
@@ -218,15 +219,15 @@ if __name__ == "__main__":
     gdf = gpd.read_file(data_path)
 
     modis_fire = ModisFire(
-        config_filepath="src/marapp_metrics/earthengine.yaml",
+        config_filepath=abspath("../earthengine.yaml"),
         start_date="2018-01-01",
         end_date="2018-12-31",
         grid=True,
-        area_threshold=1e6,
-        grid_size=0.5,
         simplify=True,
-        simplify_tolerance=0.001,
+        area_threshold=1e6,
         best_effort=False,
+        grid_size=0.5,
+        simplify_tolerance=0.001,
     )
 
     logger.debug(f"Running computations for: {modis_fire.slug}")
