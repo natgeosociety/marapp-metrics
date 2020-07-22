@@ -119,7 +119,7 @@ class MetricBase:
 
         data = []
         for i, feats in enumerate(chunked_feat_cols):
-            logger.info(f"Analysing chunk {i+1}")
+            logger.info(f"Analysing chunk {i+1} of {len(chunked_feat_cols)}")
             for k, v in reducers.items():
                 im = v["image"]
                 reducer = v["reducer"]
