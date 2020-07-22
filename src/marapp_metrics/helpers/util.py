@@ -37,9 +37,12 @@ def file_reader(filename):
 
 
 def json_reader(filename):
-    with file_reader(filename) as file:
-        data = file.read()
-        try:
-            return json.loads(data)
-        except json.JSONDecodeError:
-            raise DataReadException(f"Could not decode data at: {filename}")
+    try:
+        with file_reader(filename) as file:
+            data = file.read()
+            try:
+                return json.loads(data)
+            except json.JSONDecodeError:
+                raise DataReadException(f"Could not decode data at: {filename}")
+    except Exception:
+        raise FileNotFoundError(f"Could not find filename: {filename}")

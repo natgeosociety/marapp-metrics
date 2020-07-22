@@ -196,7 +196,11 @@ if __name__ == "__main__":
     gdf = gpd.read_file(data_path)
 
     biodiversity_intactness = BiodiversityIntactnessMetric(
-        grid=True, simplify=True, best_effort=False
+        config_filepath="src/marapp_metrics/earthengine.yaml",
+        grid=True,
+        grid_size=1,
+        simplify=True,
+        best_effort=False,
     )
 
     logger.debug(f"Running computations for: {biodiversity_intactness.slug}")

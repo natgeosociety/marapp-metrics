@@ -18,7 +18,6 @@
 """
 
 import functools
-import os
 
 import yaml
 
@@ -41,12 +40,9 @@ class Config:
             raise ConfigurationException(f"Could not get property at: {property_path}")
         return prop
 
-    @staticmethod
-    def _load_config_object(config_filepath):
-        root = os.path.dirname(os.path.dirname(__file__))
-        filename = os.path.join(root, config_filepath)
+    def _load_config_object(self, config_filepath):
         try:
-            with open(filename, "r") as stream:
+            with open(config_filepath, "r") as stream:
                 try:
                     config = yaml.safe_load(stream)
                     logger.debug(f"Using earthengine config from: {config_filepath}")

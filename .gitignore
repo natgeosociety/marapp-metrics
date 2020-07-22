@@ -132,4 +132,4 @@ dmypy.json
 tests/fixtures/metrics
 
 # config
-src/marapp_metrics/earthengine.yaml
+*/**/earthengine.yaml

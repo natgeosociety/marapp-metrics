@@ -212,20 +212,22 @@ class ModisFire(MetricBase):
 if __name__ == "__main__":
     import geopandas as gpd
 
-    data_path = "sample-data/akagera.geojson"
+    data_path = "sample-data/romania.geojson"
 
     logger.debug(f"Importing geometry from {data_path}")
     gdf = gpd.read_file(data_path)
 
     modis_fire = ModisFire(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
         start_date="2018-01-01",
         end_date="2018-12-31",
         grid=True,
         area_threshold=1e6,
-        grid_dimension=10,
+        grid_size=0.5,
         simplify=True,
         simplify_tolerance=0.001,
-    )  # grid=True, simplify=True, best_effort=False)
+        best_effort=False,
+    )
 
     logger.debug(f"Running computations for: {modis_fire.slug}")
     m = modis_fire.measure(gdf)

@@ -172,7 +172,12 @@ if __name__ == "__main__":
     logger.debug(f"Importing geometry from: {data_path}")
     gdf = gpd.read_file(data_path)
 
-    human_footprint = HumanFootprint(grid=True, simplify=True, best_effort=False)
+    human_footprint = HumanFootprint(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
+        grid=True,
+        simplify=True,
+        best_effort=False,
+    )
 
     logger.debug(f"Running computations for: {human_footprint.slug}")
     m = human_footprint.measure(gdf)

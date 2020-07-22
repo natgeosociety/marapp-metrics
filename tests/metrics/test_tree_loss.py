@@ -46,18 +46,6 @@ from ..util import (
             "fixtures/shapes/france-feature-collection.geojson",
             "fixtures/metrics/tree-loss/france-data.json",
         ),
-        # (
-        #     "fixtures/shapes/canada-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/canada-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/africa-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/africa-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/russia-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/russia-data.json",
-        # ),
     ],
 )
 def test_compute_basic(shape_path, metric_path):
@@ -65,7 +53,7 @@ def test_compute_basic(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = TreeLoss()
+    handler = TreeLoss(config_filepath="src/marapp_metrics/earthengine.yaml")
 
     # Compute the metric..
     metric = handler.measure(gdf)
@@ -90,14 +78,18 @@ def test_compute_basic(shape_path, metric_path):
 @pytest.mark.parametrize(
     "shape_path,metric_path",
     [
-        # (
-        #     "fixtures/shapes/canada-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/canada-gridded-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/russia-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/russia-gridded-data.json",
-        # ),
+        (
+            "fixtures/shapes/canada-feature-collection.geojson",
+            "fixtures/metrics/tree-loss/canada-gridded-data.json",
+        ),
+        (
+            "fixtures/shapes/russia-feature-collection.geojson",
+            "fixtures/metrics/tree-loss/russia-gridded-data.json",
+        ),
+        (
+            "fixtures/shapes/africa-feature-collection.geojson",
+            "fixtures/metrics/tree-loss/africa-gridded-data.json",
+        ),
     ],
 )
 def test_compute_grid(shape_path, metric_path):
@@ -105,7 +97,12 @@ def test_compute_grid(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = TreeLoss(grid=True, simplify=True, best_effort=False)
+    handler = TreeLoss(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
+        grid=True,
+        simplify=True,
+        best_effort=False,
+    )
 
     # Compute the metric..
     metric = handler.measure(gdf)
@@ -136,7 +133,9 @@ def test_throw_area_exception(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = TreeLoss(use_exceeds_limit=True)
+    handler = TreeLoss(
+        config_filepath="src/marapp_metrics/earthengine.yaml", use_exceeds_limit=True
+    )
 
     # Large shape should throw an exception
     with pytest.raises(MetricComputeException):

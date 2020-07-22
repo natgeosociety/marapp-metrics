@@ -45,18 +45,6 @@ from ..util import (
             "fixtures/shapes/france-feature-collection.geojson",
             "fixtures/metrics/human-impact/france-data.json",
         ),
-        (
-            "fixtures/shapes/canada-feature-collection.geojson",
-            "fixtures/metrics/human-impact/canada-data.json",
-        ),
-        (
-            "fixtures/shapes/africa-feature-collection.geojson",
-            "fixtures/metrics/human-impact/africa-data.json",
-        ),
-        (
-            "fixtures/shapes/russia-feature-collection.geojson",
-            "fixtures/metrics/human-impact/russia-data.json",
-        ),
     ],
 )
 def test_compute_basic(shape_path, metric_path):
@@ -64,7 +52,9 @@ def test_compute_basic(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = HumanInfluenceEnsembleMetric()
+    handler = HumanInfluenceEnsembleMetric(
+        config_filepath="src/marapp_metrics/earthengine.yaml"
+    )
 
     # Compute the metric..
     metric = handler.measure(gdf)
@@ -89,14 +79,18 @@ def test_compute_basic(shape_path, metric_path):
 @pytest.mark.parametrize(
     "shape_path,metric_path",
     [
-        # (
-        #     "fixtures/shapes/canada-feature-collection.geojson",
-        #     "fixtures/metrics/human-impact/canada-gridded-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/russia-feature-collection.geojson",
-        #     "fixtures/metrics/human-impact/russia-gridded-data.json",
-        # ),
+        (
+            "fixtures/shapes/canada-feature-collection.geojson",
+            "fixtures/metrics/human-impact/canada-gridded-data.json",
+        ),
+        (
+            "fixtures/shapes/russia-feature-collection.geojson",
+            "fixtures/metrics/human-impact/russia-gridded-data.json",
+        ),
+        (
+            "fixtures/shapes/africa-feature-collection.geojson",
+            "fixtures/metrics/human-impact/africa-gridded-data.json",
+        ),
     ],
 )
 def test_compute_grid(shape_path, metric_path):
@@ -104,7 +98,12 @@ def test_compute_grid(shape_path, metric_path):
     gdf = geojson_reader(shape_path)
     assert not gdf.empty
 
-    handler = HumanInfluenceEnsembleMetric(grid=True, simplify=True, best_effort=False)
+    handler = HumanInfluenceEnsembleMetric(
+        config_filepath="src/marapp_metrics/earthengine.yaml",
+        grid=True,
+        simplify=True,
+        best_effort=False,
+    )
 
     # Compute the metric..
     metric = handler.measure(gdf)
