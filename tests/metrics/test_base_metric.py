@@ -30,7 +30,9 @@ from marapp_metrics.helpers.util import abspath
 )
 def test_create_grid(shape_path, metric_path):
     degrees = 0.5
-    base = MetricBase(config_filepath=abspath("../../marapp_metrics/earthengine.yaml"))
+    base = MetricBase(
+        config_filepath=abspath(__file__, "../../src/marapp_metrics/earthengine.yaml")
+    )
 
     # Create the geometry.
     polygon = ee.Geometry.Polygon([[[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]]])
@@ -47,7 +49,9 @@ def test_create_grid(shape_path, metric_path):
     [("fixtures/shapes/canada-feature-collection.geojson", "",)],
 )
 def test_create_grid_intersections(shape_path, metric_path):
-    base = MetricBase(config_filepath=abspath("../../marapp_metrics/earthengine.yaml"))
+    base = MetricBase(
+        config_filepath=abspath(__file__, "../../src/marapp_metrics/earthengine.yaml")
+    )
     degrees = 0.5
 
     # Create the geometry (triangle)

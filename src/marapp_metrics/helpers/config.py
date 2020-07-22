@@ -48,11 +48,9 @@ class Config:
                     logger.debug(f"Using earthengine config from: {config_filepath}")
                     return config
                 except yaml.YAMLError:
-                    raise
-        except Exception:
-            raise ConfigurationException(
-                f"Could not find earthengine config: {config_filepath}"
-            )
+                    raise ConfigurationException(f"Could not decode YAML file: {config_filepath}")
+        except FileNotFoundError:
+            raise ConfigurationException(f"Could not find earthengine config: {config_filepath}")
 
 
 def deepgetattr(obj, attr, default=None, sep="."):
