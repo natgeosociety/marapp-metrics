@@ -27,18 +27,6 @@ from ..util import (
             "fixtures/shapes/france-feature-collection.geojson",
             "fixtures/metrics/protected-areas/france-data.json",
         ),
-        # (
-        #     "fixtures/shapes/canada-feature-collection.geojson",
-        #     "fixtures/metrics/protected-areas/canada-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/africa-feature-collection.geojson",
-        #     "fixtures/metrics/protected-areas/africa-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/russia-feature-collection.geojson",
-        #     "fixtures/metrics/protected-areas/russia-data.json",
-        # ),
     ],
 )
 def test_compute_basic(shape_path, metric_path):
@@ -71,14 +59,18 @@ def test_compute_basic(shape_path, metric_path):
 @pytest.mark.parametrize(
     "shape_path,metric_path",
     [
-        # (
-        #     "fixtures/shapes/canada-feature-collection.geojson",
-        #     "fixtures/metrics/protected-areas/canada-gridded-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/russia-feature-collection.geojson",
-        #     "fixtures/metrics/protected-areas/russia-gridded-data.json",
-        # ),
+        (
+            "fixtures/shapes/canada-feature-collection.geojson",
+            "fixtures/metrics/protected-areas/canada-gridded-data.json",
+        ),
+        (
+            "fixtures/shapes/russia-feature-collection.geojson",
+            "fixtures/metrics/protected-areas/russia-gridded-data.json",
+        ),
+        (
+            "fixtures/shapes/africa-feature-collection.geojson",
+            "fixtures/metrics/protected-areas/africa-gridded-data.json",
+        ),
     ],
 )
 def test_compute_grid(shape_path, metric_path):

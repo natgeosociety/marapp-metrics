@@ -1,7 +1,6 @@
 import ee
 import geojson
 import geopandas as gpd
-import math
 import pandas as pd
 from collections.abc import Iterable
 from shapely import wkt
@@ -31,7 +30,8 @@ class MetricBase:
         :keyword simplify: Bool
         :keyword simplify_tolerance: Level to which shape is simplified
         :keyword area_threshold: Size at which polygons are broken into grids
-        :keyword grid_dimension: Grid dimension
+        :keyword grid_size_degrees: Grid size in arc degrees
+        :keyword chunk_size: Analyse in blocks
         :keyword config_filepath: Yaml config file
         """
         # Initialize Earth Engine, using the authentication credentials.
@@ -41,7 +41,7 @@ class MetricBase:
         self.simplify = kwargs.get("simplify", False)
         self.simplify_tolerance = 0.00001
         self.area_threshold = kwargs.get("area_threshold", 1e6)
-        self.grid_dimension = kwargs.get("grid_dimension", 20)
+        self.grid_size_degrees = kwargs.get("grid_size_degrees", 1)
         self.precision = kwargs.get("precision", 5)
         self._scale = kwargs.get("scale", 300)
         self._best_effort = kwargs.get("best_effort", False)
@@ -100,7 +100,7 @@ class MetricBase:
 
         data = []
         for i, feats in enumerate(chunked_feat_cols):
-            logger.info(f"Analysing chunk {i + 1}/{math.ceil(len(feats_list) / n) + 1}")
+            logger.info(f"Analysing chunk {i+1}")
             for k, v in reducers.items():
                 im = v["image"]
                 reducer = v["reducer"]
@@ -196,11 +196,14 @@ class MetricBase:
                 if feat["area_km2"] > self.area_threshold:
                     gridded_feature_list += self._create_grid(
                         ee_feature=feat["ee_feature"],
-                        grid_dimension=self.grid_dimension,
+                        grid_size_degrees=self.grid_size_degrees,
                     )
                 else:
                     gridded_feature_list += [feat["ee_feature"]]
 
+            logger.info(
+                f"Created {len(gridded_feature_list)} grid cells of size {self.grid_size_degrees} arc-degrees."
+            )
             return gridded_feature_list
         else:
             return [
@@ -208,13 +211,16 @@ class MetricBase:
                 for f in geom["features"]
             ]
 
-    def _create_grid(self, ee_feature, grid_dimension):
+    def _create_grid(self, ee_feature, grid_size_degrees):
         """
         Breaks down a feature into an N x N grid and returns a new list of ee.Features.
         :param ee_feature:  ee.Feature
-        :param grid_dimension: Grid dimension
+        :param grid_size_degrees: Grid size in arc degrees
         :return: list of ee.Features
         """
+
+        # Arc grid JS equivalent here https://code.earthengine.google.com/bdb4f409515d1fda0592a8330a0f6528
+
         # Get bounds of grid
         bounds = ee_feature.bounds().geometry().bounds().getInfo()
 
@@ -226,23 +232,32 @@ class MetricBase:
         lat_start = min(y_coords)
         lat_end = max(y_coords)
 
-        num_cells = grid_dimension * grid_dimension
-        lon_edge = (lon_end - lon_start) / (num_cells ** 0.5)
-        lat_edge = (lat_end - lat_start) / (num_cells ** 0.5)
+        lon_width = lon_end - lon_start
+        lat_width = lat_end - lat_start
+
+        # test grid size against bounding box
+        if grid_size_degrees > lon_width and grid_size_degrees > lat_width:
+            logger.info("Grid larger than feature. Skipping.")
+            return [ee_feature]
+
+        elif grid_size_degrees > lon_width / 2 and grid_size_degrees > lat_width / 2:
+            logger.warning(
+                "Expecting less than 4 grids. Consider using a smaller grid_size_degrees or larger area_threshold."
+            )
 
         # Generate grid over ee_feature
         polys = []
         lon = lon_start
-        for i in range(0, self.grid_dimension):
+        while lon < lon_end:
             x1 = lon
-            x2 = lon + lon_edge
-            lon += lon_edge
+            x2 = lon + grid_size_degrees
+            lon += grid_size_degrees
 
             lat = lat_start
-            for j in range(0, self.grid_dimension):
+            while lat < lat_end:
                 y1 = lat
-                y2 = lat + lat_edge
-                lat += lat_edge
+                y2 = lat + grid_size_degrees
+                lat += grid_size_degrees
 
                 polys.append(ee.Feature(ee.Geometry.Rectangle(x1, y1, x2, y2), {}))
 

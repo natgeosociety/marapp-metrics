@@ -27,18 +27,6 @@ from ..util import (
             "fixtures/shapes/france-feature-collection.geojson",
             "fixtures/metrics/tree-loss/france-data.json",
         ),
-        # (
-        #     "fixtures/shapes/canada-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/canada-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/africa-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/africa-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/russia-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/russia-data.json",
-        # ),
     ],
 )
 def test_compute_basic(shape_path, metric_path):
@@ -71,14 +59,18 @@ def test_compute_basic(shape_path, metric_path):
 @pytest.mark.parametrize(
     "shape_path,metric_path",
     [
-        # (
-        #     "fixtures/shapes/canada-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/canada-gridded-data.json",
-        # ),
-        # (
-        #     "fixtures/shapes/russia-feature-collection.geojson",
-        #     "fixtures/metrics/tree-loss/russia-gridded-data.json",
-        # ),
+        (
+            "fixtures/shapes/canada-feature-collection.geojson",
+            "fixtures/metrics/tree-loss/canada-gridded-data.json",
+        ),
+        (
+            "fixtures/shapes/russia-feature-collection.geojson",
+            "fixtures/metrics/tree-loss/russia-gridded-data.json",
+        ),
+        (
+            "fixtures/shapes/africa-feature-collection.geojson",
+            "fixtures/metrics/tree-loss/africa-gridded-data.json",
+        ),
     ],
 )
 def test_compute_grid(shape_path, metric_path):
