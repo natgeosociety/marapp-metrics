@@ -1,3 +1,22 @@
+"""
+  Copyright 2018-2020 National Geographic Society
+
+  Use of this software does not constitute endorsement by National Geographic
+  Society (NGS). The NGS name and NGS logo may not be used for any purpose without
+  written permission from NGS.
+
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+  this file except in compliance with the License. You may obtain a copy of the
+  License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software distributed
+  under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+  CONDITIONS OF ANY KIND, either express or implied. See the License for the
+  specific language governing permissions and limitations under the License.
+"""
+
 import collections
 
 import ee
@@ -7,6 +26,7 @@ import numpy as np
 from .base.metric_base import MetricBase, MetricPackageException
 from ..helpers.earthengine import simple_mask_function
 from ..helpers.logging import get_logger
+from ..helpers.util import abspath
 
 logger = get_logger("modis-evi")
 
@@ -213,7 +233,12 @@ if __name__ == "__main__":
     logger.debug(f"Importing geometry from: {data_path}")
     gdf = gpd.read_file(data_path)
 
-    modis_evi = ModisEvi(config_filepath="src/marapp_metrics/earthengine.yaml")
+    modis_evi = ModisEvi(
+        config_filepath=abspath("../earthengine.yaml"),
+        grid=True,
+        simplify=True,
+        best_effort=False,
+    )
 
     logger.debug(f"Running computations for: {modis_evi.slug}")
     m = modis_evi.measure(gdf)

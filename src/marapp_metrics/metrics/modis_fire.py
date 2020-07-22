@@ -1,3 +1,22 @@
+"""
+  Copyright 2018-2020 National Geographic Society
+
+  Use of this software does not constitute endorsement by National Geographic
+  Society (NGS). The NGS name and NGS logo may not be used for any purpose without
+  written permission from NGS.
+
+  Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+  this file except in compliance with the License. You may obtain a copy of the
+  License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software distributed
+  under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+  CONDITIONS OF ANY KIND, either express or implied. See the License for the
+  specific language governing permissions and limitations under the License.
+"""
+
 import collections
 import ee
 from datetime import timedelta, datetime
@@ -5,6 +24,7 @@ from datetime import timedelta, datetime
 from .base.metric_base import MetricBase, MetricPackageException
 from ..helpers.earthengine import filter_fires
 from ..helpers.logging import get_logger
+from ..helpers.util import abspath
 
 logger = get_logger("modis-fire")
 
@@ -199,15 +219,15 @@ if __name__ == "__main__":
     gdf = gpd.read_file(data_path)
 
     modis_fire = ModisFire(
-        config_filepath="src/marapp_metrics/earthengine.yaml",
+        config_filepath=abspath("../earthengine.yaml"),
         start_date="2018-01-01",
         end_date="2018-12-31",
         grid=True,
-        area_threshold=1e6,
-        grid_size=0.5,
         simplify=True,
-        simplify_tolerance=0.001,
+        area_threshold=1e6,
         best_effort=False,
+        grid_size=0.5,
+        simplify_tolerance=0.001,
     )
 
     logger.debug(f"Running computations for: {modis_fire.slug}")
