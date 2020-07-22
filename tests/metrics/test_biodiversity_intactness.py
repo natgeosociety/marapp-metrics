@@ -57,7 +57,7 @@ def test_compute_basic(shape_path, metric_path):
     assert not gdf.empty
 
     handler = BiodiversityIntactnessMetric(
-        config_filepath=abspath("../../marapp_metrics/earthengine.yaml")
+        config_filepath=abspath(__file__, "../../src/marapp_metrics/earthengine.yaml"),
     )
 
     # Compute the metric..
@@ -103,7 +103,7 @@ def test_compute_grid(shape_path, metric_path):
     assert not gdf.empty
 
     handler = BiodiversityIntactnessMetric(
-        config_filepath=abspath("../../marapp_metrics/earthengine.yaml"),
+        config_filepath=abspath(__file__, "../../src/marapp_metrics/earthengine.yaml"),
         grid=True,
         simplify=True,
         best_effort=False,

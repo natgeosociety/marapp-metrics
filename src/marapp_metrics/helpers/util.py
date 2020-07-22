@@ -48,8 +48,8 @@ def json_reader(filename):
         raise FileNotFoundError(f"Could not find filename: {filename}")
 
 
-def abspath(relative_path):
+def abspath(current_path, relative_path):
     """Build an absolute path from relative path"""
 
-    parent = path.abspath(path.dirname(__file__))
+    parent = path.abspath(path.dirname(current_path))
     return path.join(parent, relative_path)

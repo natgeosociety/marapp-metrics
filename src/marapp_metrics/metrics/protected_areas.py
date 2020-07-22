@@ -177,7 +177,7 @@ if __name__ == "__main__":
     gdf = gpd.read_file(data_path)
 
     protected_areas = ProtectedAreas(
-        config_filepath=abspath("../earthengine.yaml"),
+        config_filepath=abspath(__file__, "../earthengine.yaml"),
         grid=True,
         simplify=True,
         best_effort=False,
