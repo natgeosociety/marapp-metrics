@@ -133,3 +133,5 @@ tests/fixtures/metrics
 
 # config
 */**/earthengine.yaml
+
+node_modules
