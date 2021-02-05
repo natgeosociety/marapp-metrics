@@ -74,12 +74,8 @@ class HumanFootprint(MetricBase):
         area_im = ee.Image.pixelArea()  # area raster
         self._ee_im_area = area_im.divide(1e6).rename(["area"])  # km2
 
-        _ee_im_1993_area = ee.Image(self._ee_dataset.get("1993")).multiply(
-            self._ee_im_area
-        )
-        _ee_im_2009_area = ee.Image(self._ee_dataset.get("2009")).multiply(
-            self._ee_im_area
-        )
+        _ee_im_1993_area = ee.Image(self._ee_dataset[1993]).multiply(self._ee_im_area)
+        _ee_im_2009_area = ee.Image(self._ee_dataset[2009]).multiply(self._ee_im_area)
         _ee_im_col_area = ee.ImageCollection(
             [_ee_im_1993_area, _ee_im_2009_area, self._ee_im_area]
         )
@@ -168,7 +164,7 @@ class HumanFootprint(MetricBase):
 if __name__ == "__main__":
     import geopandas as gpd
 
-    data_path = "sample-data/canada.geojson"
+    data_path = "sample-data/paris.geojson"
 
     logger.debug(f"Importing geometry from: {data_path}")
     gdf = gpd.read_file(data_path)
