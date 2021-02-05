@@ -19,7 +19,7 @@
 
 from setuptools import setup, find_packages
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 install_requires = [
     "earthengine-api==0.1.215",
