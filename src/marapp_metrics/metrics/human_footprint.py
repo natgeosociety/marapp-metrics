@@ -30,10 +30,10 @@ logger = get_logger("human-footprint")
 metric_fields = {
     "area_km2": 0,
     "delta": 0,
-    "mean_09": 0,
-    "mean_93": 0,
-    "sum_09": 0,
-    "sum_93": 0,
+    "mean_2013": 0,
+    "mean_2000": 0,
+    "sum_2013": 0,
+    "sum_2000": 0,
 }
 
 Metric = collections.namedtuple(
@@ -43,7 +43,7 @@ Metric = collections.namedtuple(
 
 class HumanFootprint(MetricBase):
     """
-    Calculates human footprint over two time ranges: 1993, 2009.
+    Calculates human footprint over two time ranges: 2000, 2013.
     """
 
     # compute flags
@@ -74,19 +74,19 @@ class HumanFootprint(MetricBase):
         area_im = ee.Image.pixelArea()  # area raster
         self._ee_im_area = area_im.divide(1e6).rename(["area"])  # km2
 
-        _ee_im_1993_area = ee.Image(self._ee_dataset[1993]).multiply(self._ee_im_area)
-        _ee_im_2009_area = ee.Image(self._ee_dataset[2009]).multiply(self._ee_im_area)
+        _ee_im_2000_area = ee.Image(self._ee_dataset[2000]).multiply(self._ee_im_area)
+        _ee_im_2013_area = ee.Image(self._ee_dataset[2013]).multiply(self._ee_im_area)
         _ee_im_col_area = ee.ImageCollection(
-            [_ee_im_1993_area, _ee_im_2009_area, self._ee_im_area]
+            [_ee_im_2000_area, _ee_im_2013_area, self._ee_im_area]
         )
         _ee_im = _ee_im_col_area.toBands()
-        self._ee_im = _ee_im.rename(["1993", "2009", "area"])
+        self._ee_im = _ee_im.rename(["2000", "2013", "area"])
 
-        _ee_im_1993_px = simple_mask_function(_ee_im_1993_area, _ee_im_1993_area, gte=0)
-        _ee_im_2009_px = simple_mask_function(_ee_im_2009_area, _ee_im_2009_area, gte=0)
-        _ee_im_col_px = ee.ImageCollection([_ee_im_1993_px, _ee_im_2009_px])
+        _ee_im_2000_px = simple_mask_function(_ee_im_2000_area, _ee_im_2000_area, gte=0)
+        _ee_im_2013_px = simple_mask_function(_ee_im_2013_area, _ee_im_2013_area, gte=0)
+        _ee_im_col_px = ee.ImageCollection([_ee_im_2000_px, _ee_im_2013_px])
         _ee_px = _ee_im_col_px.toBands()
-        self._ee_px = _ee_px.rename(["1993", "2009"])
+        self._ee_px = _ee_px.rename(["2000", "2013"])
 
     def measure(self, gdf, area_km2=None):
         super().measure(gdf, area_km2)
@@ -124,17 +124,17 @@ class HumanFootprint(MetricBase):
         :return: Metric object
         """
         area = sum([d["human_footprint_area"]["area"] for d in data])
-        metric_area_93 = sum([d["human_footprint_area"]["1993"] for d in data])
-        metric_area_09 = sum([d["human_footprint_area"]["2009"] for d in data])
-        metric_px_93 = sum([d["human_footprint_px"]["1993"] for d in data])
-        metric_px_09 = sum([d["human_footprint_px"]["2009"] for d in data])
+        metric_area_2000 = sum([d["human_footprint_area"]["2000"] for d in data])
+        metric_area_2013 = sum([d["human_footprint_area"]["2013"] for d in data])
+        metric_px_2000 = sum([d["human_footprint_px"]["2000"] for d in data])
+        metric_px_2013 = sum([d["human_footprint_px"]["2013"] for d in data])
 
         return {
             "area": area,
-            "sum_area_93": metric_area_93,
-            "sum_area_09": metric_area_09,
-            "px_93": metric_px_93,
-            "px_09": metric_px_09,
+            "sum_area_2000": metric_area_2000,
+            "sum_area_2013": metric_area_2013,
+            "px_2000": metric_px_2000,
+            "px_2013": metric_px_2013,
         }
 
     def _package_metric(self, raw_data):
@@ -147,16 +147,16 @@ class HumanFootprint(MetricBase):
             raise MetricPackageException("Could not package metric for geometry")
 
         area = raw_data["area"]
-        mean_09 = raw_data["sum_area_09"] / area
-        mean_93 = raw_data["sum_area_93"] / area
+        mean_2000 = raw_data["sum_area_2000"] / area
+        mean_2013 = raw_data["sum_area_2013"] / area
 
         metric = Metric(
             area_km2=area,
-            delta=mean_09 - mean_93,
-            mean_09=mean_09,
-            mean_93=mean_93,
-            sum_09=mean_09 * raw_data["px_09"],
-            sum_93=mean_93 * raw_data["px_93"],
+            delta=mean_2013 - mean_2000,
+            mean_2013=mean_2013,
+            mean_2000=mean_2000,
+            sum_2013=mean_2013 * raw_data["px_2013"],
+            sum_2000=mean_2000 * raw_data["px_2000"],
         )
         return metric
 
