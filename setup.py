@@ -27,7 +27,7 @@ install_requires = [
     "geopandas==0.7.0",
     "Shapely==1.7.0",
     "geojson==2.5.0",
-    "PyYAML==5.3",
+    "PyYAML==5.4",
 ]
 
 setup(
